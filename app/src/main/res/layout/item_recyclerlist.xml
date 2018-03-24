@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/RecyclerItemImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/iconex"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/RecyclerItemInformation"
+        android:layout_toRightOf="@+id/RecyclerItemImage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/RecyclerItemDaerah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sumatera Utara"/>
+        <TextView
+            android:id="@+id/RecyclerItemNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soto Medan"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/RecyclerItemSpan"
+        android:layout_below="@+id/RecyclerItemInformation"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/RecyclerItemImage"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/hr01"
+        />
+
+</RelativeLayout>

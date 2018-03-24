@@ -1,0 +1,1999 @@
+{
+    "provinsi": {
+        "11": {
+            "nama": "Aceh",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "98,5%"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "1.1%"
+                },
+                {
+                    "nama": "lainnya",
+                    "persentase": "0.5%"
+                }
+            ],
+            "bahasa": [
+                "Aceh",
+                "Gayo",
+                "Aneuk Jamee",
+                "Singkil",
+                "Alas",
+                "Tamiang",
+                "Kluet",
+                "Devayan",
+                "Sigulai",
+                "Pakpak",
+                "Haloban",
+                "Lekon",
+                "Nias",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Aceh",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Gayo",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Aneuk Jamee",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Singkil",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Alas",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Tamiang",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Kluet",
+                    "tempat": ""
+                }
+                
+            ]
+        },
+        "12": {
+            "nama": "Sumatera Utara",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "65.5%"
+                },
+                {
+                    "nama": "Kristen (Protestan/Katolik)",
+                    "persentase": "(31,4%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(2,8%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,2%)"
+                }
+            ],
+            "bahasa": [
+                "indonesia",
+                "batak",
+                "karo",
+                "angkola",
+                "nias",
+                "Pakpak",
+                "Simalungun",
+                "Mandailing",
+                "Minangkabau",
+                "Melayu",
+                "Jawa"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Melayu",
+                    "tempat": "Pesisir Timur, terutama di kabupaten Deli Serdang, Serdang Bedagai, dan Langkat"
+                },
+                {
+                    "nama": "Suku Batak Karo",
+                    "tempat": "Kabupaten Karo"
+                },
+                {
+                    "nama": "Suku Batak Toba",
+                    "tempat": "Kabupaten Tapanuli Utara, Kabupaten Humbang Hasundutan, Kabupaten Samosir, Kabupaten Toba Samosir"
+                },
+                {
+                    "nama": "Suku Batak Mandailing",
+                    "tempat": "Kabupaten Mandailing Natal"
+                },
+                {
+                    "nama": "Suku Batak Angkola",
+                    "tempat": "Kabupaten Tapanuli Selatan dan Kabupaten Padang Lawas"
+                },
+                {
+                    "nama": "Suku Batak Simalungun",
+                    "tempat": "Kabupaten Simalungun"
+                },
+                {
+                    "nama": "Suku Batak Pakpak",
+                    "tempat": "Kabupaten Dairi dan Kabupaten Pakpak Barat"
+                },
+                {
+                    "nama": "Suku Nias",
+                    "tempat": "Pulau Nias"
+                },
+                {
+                    "nama": "Suku Minangkabau",
+                    "tempat": "Kota Medan, Kabupaten Batubara, Pesisir barat"
+                },
+                {
+                    "nama": "Suku Aceh",
+                    "tempat": "Kota Medan"
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": "Pesisir timur"
+                },
+                {
+                    "nama": "Suku Tionghoa",
+                    "tempat": "Perkotaan pesisir timur & barat."
+                }
+            ]
+        },
+        "13": {
+            "nama": "Sumatera Barat",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(97.4%)"
+                },
+                {
+                    "nama": "Kristen (Protestan/Katolik)",
+                    "persentase": "(2.2%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0,26%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,01%)"
+                }
+            ],
+            "bahasa": [
+                "indonesia",
+                "Minangkabau",
+                "Melayu"
+            ],
+            "suku": [
+                {
+                    "nama": "suku minangkabau",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku batak mandailing",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku mentawai",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku nias",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku jawa",
+                    "tempat": ""
+                }
+            ]
+        },
+        "14": {
+            "nama": "Riau",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(87.98%)"
+                },
+                {
+                    "nama": "Kristen Protestan",
+                    "persentase": "(8.8%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(0.9%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(2.05%)"
+                },
+                {
+                    "nama": "lainnya",
+                    "persentase": "(0.36%)"
+                }
+            ],
+            "bahasa": [
+                "indonesia",
+                "Minangkabau",
+                "Melayu"
+            ],
+            "suku": [
+                {
+                    "nama": "suku minangkabau",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku melayu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku banjar",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku batak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Makasar",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Mandailing",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Sakai",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Talang Mamak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Laut",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Kualam",
+                    "tempat": ""
+                }
+            ]
+        },
+        "15": {
+            "nama": "Jambi",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(96,5%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(3%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(1%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,12%)"
+                }
+            ],
+            "bahasa": [
+                "Kerinci",
+                "Minangkabau",
+                "Melayu",
+                "Jawa",
+                "Banjar",
+                "Sunda",
+                "Bugis"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Kubu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Anak Dalam",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku melayu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Minangkabau",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Batak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Sunda",
+                    "tempat": ""
+                }
+            ]
+        },
+        "16": {
+            "nama": "Sumatera Selatan",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(96%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(1,7%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(1,8%)"
+                },
+                {
+                    "nama": "lainnya",
+                    "persentase": "(0,5%)"
+                }
+            ],
+            "bahasa": [
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Melayu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Komering",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Sunda",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Tionghoa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Minangkabau",
+                    "tempat": ""
+                }
+            ]
+        },
+        "17": {
+            "nama": "Bengkulu",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Kristen Protestan",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Kristen Katolik",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": ""
+                }
+            ],
+            "bahasa": [
+                "Rejang",
+                "Melayu Bengkulu",
+                "Serawai",
+                "Pasemah",
+                "Kaur",
+                "Enggano",
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Rejang",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Serawai",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku melayu Bengkulu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Lembak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Minangkabau",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Sunda",
+                    "tempat": ""
+                }
+            ]
+        },
+        "18": {
+            "nama": "Lampung",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(96%)"
+                },
+                {
+                    "nama": "Kristen Protestan",
+                    "persentase": "(1,8%)"
+                },
+                {
+                    "nama": "Kristen Katolik",
+                    "persentase": "(0.9%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(1,7%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0.3%)"
+                }
+            ],
+            "bahasa": [
+                "Lampung",
+                "Indonesia",
+                "Sunda",
+                "Jawa",
+                "Bali"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Lampung",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Sunda",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Minangkabau",
+                    "tempat": ""
+                }
+            ]
+        },
+        "19": {
+            "nama": "Kepulauan Bangka Belitung",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(81,83%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(8,71%)"
+                },
+                {
+                    "nama": "Kong Hu Cu",
+                    "persentase": "(5,11%)"
+                },
+                {
+                    "nama": "Protestan",
+                    "persentase": "(2,44%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(1.79%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,13%)"
+                }
+            ],
+            "bahasa": [
+                "Melayu Bangka",
+                "Melayu Belitung",
+                "Tionghoa",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Melayu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tionghoa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Bugis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Madura",
+                    "tempat": ""
+                }
+            ]
+        },
+        "21": {
+            "nama": "Kepulauan Riau",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Kong Hu Cu",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": ""
+                }
+            ],
+            "bahasa": [
+                "Melayu Riau",
+                "Hokkien",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Melayu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tionghoa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Bugis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku minangkabau",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Batak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Banjar",
+                    "tempat": ""
+                }
+            ]
+        },
+        "31": {
+            "nama": "Daerah Khusus Ibukota Jakarta",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(83%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(3,5%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(6,2%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(5,7%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(1,2%)"
+                }
+            ],
+            "bahasa": [
+                "Betawi",
+                "Jawa",
+                "Indonesia",
+                "Tionghoa",
+                "Sunda",
+                "Minangkabau",
+                "Batak",
+                "Inggris"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Betawi",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Sunda",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Tionghoa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Batak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Minang",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Melayu",
+                    "tempat": ""
+                }
+            ]
+        },
+        "32": {
+            "nama": "Jawa Barat",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(93,87%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0,46%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(4,34%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(1,11%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,22%)"
+                }
+            ],
+            "bahasa": [
+                "Sunda",
+                "Cirebonan",
+                "Cirebon dialek Indramayu",
+                "Melayu dialek Betawi"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Sunda",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Betawi",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Cirebon",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Batak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Minangkabau",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Tionghoa",
+                    "tempat": ""
+                }
+            ]
+        },
+        "33": {
+            "nama": "Jawa Tengah",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(93.9%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0.64%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(1.7%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(2.2%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0.08%)"
+                },
+                {
+                    "nama": "Kejawen",
+                    "persentase": "(0.33%)"
+                }
+            ],
+            "bahasa": [
+                "Jawa",
+                "Indonesia",
+                "Sunda",
+                "Tiochiu",
+                "Mandarin"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Sunda",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "suku Tionghoa",
+                    "tempat": ""
+                }
+            ]
+        },
+        "34": {
+            "nama": "Daerah Istimewa Yogyakarta",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(91,4%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(2,9%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(5,4%)"
+                }
+            ],
+            "bahasa": [
+                "Jawa",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Sunda",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                }
+            ]
+        },
+        "35": {
+            "nama": "Jawa Timur",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(96,36%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(1,70%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(0,62%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0,16%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,30%)"
+                },
+                {
+                    "nama": "Konghucu",
+                    "persentase": "(0.02%)"
+                }
+            ],
+            "bahasa": [
+                "Jawa",
+                "Madura",
+                "Osing",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Madura",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Osing",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tionghoa",
+                    "tempat": ""
+                }
+            ]
+        },
+        "36": {
+            "nama": "Banten",
+            "agama": [
+                {
+                    "nama": "islam",
+                    "persentase": "(96,6%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(1,2%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(1%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0,7%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,4%)"
+                }
+            ],
+            "bahasa": [
+                "Sunda",
+                "Jawa Banten",
+                "Betawi",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Lampung",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Sunda",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Minangkabau",
+                    "tempat": ""
+                }
+            ]
+        },
+        "51": {
+            "nama": "Bali",
+            "agama": [
+                {
+                    "nama": "Hindu",
+                    "persentase": "(92.3%)"
+                },
+                {
+                    "nama": "Islam",
+                    "persentase": "(5.7%)"
+                }
+            ],
+            "bahasa": [
+                "Bali",
+                "Jawa",
+                "Sasak",
+                "Madura",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Bali",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Baliaga",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Madura",
+                    "tempat": ""
+                }
+            ]
+        },
+        "53": {
+            "nama": "Nusa Tenggara Timur",
+            "agama": [
+                {
+                    "nama": "Katolik Roma",
+                    "persentase": "(54.14%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(34,74%)"
+                },
+                {
+                    "nama": "Islam",
+                    "persentase": "(9.05%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,11%)"
+                },
+                {
+                    "nama": "Budha",
+                    "persentase": "(0,01%)"
+                }
+            ],
+            "bahasa": [
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Atoni atau Dawan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Manggarai",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Sumba",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Lamaholot",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Belu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Rote",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Lio",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tionghoa",
+                    "tempat": ""
+                }
+            ]
+        },
+        "52": {
+            "nama": "Nusa Tenggara Barat",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(96%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(3%)"
+                },
+                {
+                    "nama": "Budha",
+                    "persentase": "(0.5%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(0.5%)"
+                }
+            ],
+            "bahasa": [
+                "Sasak",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Sasak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bima",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Sumbawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bali",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Indo-Arya",
+                    "tempat": ""
+                }
+            ]
+        },
+        "61": {
+            "nama": "Kalimantan Barat",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(57,6%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(24,1%)"
+                },
+                {
+                    "nama": "Protestan",
+                    "persentase": "(10%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(6,4%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,2%)"
+                }
+            ],
+            "bahasa": [
+                "Dayak",
+                "Melayu",
+                "Tionghoa",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Melayu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Dayak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tionghoa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Madura",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bugis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Sunda",
+                    "tempat": ""
+                }
+            ]
+        },
+        "62": {
+            "nama": "Kalimantan Tengah",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(69,67%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(3,11%)"
+                },
+                {
+                    "nama": "Protestan",
+                    "persentase": "(16,41%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0,12%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(10,69)"
+                }
+            ],
+            "bahasa": [
+                "Banjar",
+                "Dayak",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Dayak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Banjar",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Madura",
+                    "tempat": ""
+                }
+            ]
+        },
+        "63": {
+            "nama": "Kalimantan Selatan",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(96,67%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(0,44%)"
+                },
+                {
+                    "nama": "Protestan",
+                    "persentase": "(1,32%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0,32%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,44%)"
+                }
+            ],
+            "bahasa": [
+                "Banjar",
+                "Bakumpai",
+                "Bukit",
+                "Dusun Deyah",
+                "Maanyan,",
+                "Indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Banjar",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bugis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Madura",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Dayak Meratus",
+                    "tempat": ""
+                }
+            ]
+        },
+        "64": {
+            "nama": "Kalimantan Timur",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(82,3%)"
+                },
+                {
+                    "nama": "Kristen (Protestan&Katolik)",
+                    "persentase": "(16,4%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0,78%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,58%)"
+                }
+            ],
+            "bahasa": [
+                "Banjar",
+                "Dayak",
+                "Kutai",
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bugis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Banjar",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Dayak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Kutai",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Madura",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tionghoa",
+                    "tempat": ""
+                }
+            ]
+        },
+        "71": {
+            "nama": "Sulawesi Utara",
+            "agama": [
+                {
+                    "nama": "Protestan",
+                    "persentase": "(63,60%)"
+                },
+                {
+                    "nama": "Islam",
+                    "persentase": "(30,90%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(4,40%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0,58%)"
+                },
+                {
+                    "nama": "Budha",
+                    "persentase": "(0,14%)"
+                },
+                {
+                    "nama": "Kong Hu Cu",
+                    "persentase": "(0,02%)"
+                }
+            ],
+            "bahasa": [
+                "Manado",
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Minahasa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Sangir",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Mongondow",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Gorontalo",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tionghoa",
+                    "tempat": ""
+                }
+            ]
+        },
+        "72": {
+            "nama": "Sulawesi Tengah",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(76.6%)"
+                },
+                {
+                    "nama": "Protestan",
+                    "persentase": "(17.3%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(3.2%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(2.7%)"
+                },
+                {
+                    "nama": "Budha",
+                    "persentase": "(0.16%)"
+                }
+            ],
+            "bahasa": [
+                "Pamona",
+                "Mori",
+                "Kaili",
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Kaili",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bugis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Pamona",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Gorontalo",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Mori",
+                    "tempat": ""
+                }
+            ]
+        },
+        "73": {
+            "nama": "Sulawesi Selatan",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(87.88%)"
+                },
+                {
+                    "nama": "Protestan",
+                    "persentase": "(8.19%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(1.51%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0.02%)"
+                },
+                {
+                    "nama": "Budha",
+                    "persentase": "(0.88%)"
+                }
+            ],
+            "bahasa": [
+                "Makasar",
+                "Bugis",
+                "Toraja",
+                "Mandar",
+                "Luwu",
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Bugis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Makassar",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Mandar",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Toraja",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Duri",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Pattinjo",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bone",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Endekan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Pattae",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Kajang/Konjo",
+                    "tempat": ""
+                }
+            ]
+        },
+        "74": {
+            "nama": "Sulaeesi Tenggara",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(95%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(2.7%)"
+                }
+            ],
+            "bahasa": [
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Buton",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bugis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tolaki",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Muna",
+                    "tempat": ""
+                }
+            ]
+        },
+        "75": {
+            "nama": "Gorontalo",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(97.81%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(1.59%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(0.35%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(0.07%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0.09%)"
+                }
+            ],
+            "bahasa": [
+                "Gorontalo",
+                "Suwawa",
+                "Atinggola",
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Gorontalo",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Suwawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Atinggola",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bone",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Mongondow",
+                    "tempat": ""
+                }
+            ]
+        },
+        "76": {
+            "nama": "Sulawesi Barat",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(83,1%)"
+                },
+                {
+                    "nama": "Kristen",
+                    "persentase": "(14,36%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(1,88%)"
+                },
+                {
+                    "nama": "Buddha",
+                    "persentase": "(0,04%)"
+                }
+            ],
+            "bahasa": [
+                "Mandar",
+                "Bugis",
+                "Toraja",
+                "Makassar",
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Mandar",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Toraja",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bugis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Makassar",
+                    "tempat": ""
+                }
+            ]
+        },
+        "81": {
+            "nama": "Maluku",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": "(50,6%)"
+                },
+                {
+                    "nama": "Protestan",
+                    "persentase": "(41%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(9%)"
+                }
+            ],
+            "bahasa": [
+                "Dialek Melayu Ambon",
+                "Tulehu",
+                "Kai",
+                "Banda",
+                "Seith",
+                "Yamdena",
+                "Kisar",
+                "Dammar",
+                "Paulohy",
+                "Dawera-Daweloor",
+                "Makassar",
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Alef'uru",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Eropa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Arab",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Buton",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Minahasa",
+                    "tempat": ""
+                }
+            ]
+        },
+        "82": {
+            "nama": "Maluku Utara",
+            "agama": [
+                {
+                    "nama": "Islam",
+                    "persentase": " (76,1%)"
+                },
+                {
+                    "nama": "Protestan",
+                    "persentase": "(23,1%)"
+                }
+            ],
+            "bahasa": [
+                "Melayu Maluku Utara"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Module",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Pagu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Ternate",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Makian Barat",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Kao",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tidore",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Buli",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Patani",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Maba",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Sawai",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Weda",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Gne",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Makian Timur",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Kayoa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bacan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Sula",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Ange",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Siboyo",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Kadai",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Galela",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tobelo",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Loloda",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tobaru",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Sahu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Bangsa Arab DAN Eropa",
+                    "tempat": ""
+                }
+            ]
+        },
+        "91": {
+            "nama": "Papua Barat",
+            "agama": [
+                {
+                    "nama": "Protestan",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Islam",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": ""
+                },
+                {
+                    "nama": "Budha",
+                    "persentase": ""
+                }
+            ],
+            "bahasa": [
+                "24 Bahasa Daerah",
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Arfak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Doteri",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Kuri",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Simuri",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Irarutu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Moscona",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Mairasi",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Kambouw",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Onim",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Maibrat",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tehit",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Imeko",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Moi",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tipin",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Maya",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Biak",
+                    "tempat": ""
+                }
+            ]
+        },
+        "92": {
+            "nama": "Papua",
+            "agama": [
+                {
+                    "nama": "Protestan",
+                    "persentase": "(51,2%)"
+                },
+                {
+                    "nama": "Katolik",
+                    "persentase": "(25,42%)"
+                },
+                {
+                    "nama": "Islam",
+                    "persentase": "(20%)"
+                },
+                {
+                    "nama": "Hindu",
+                    "persentase": "(3%)"
+                },
+                {
+                    "nama": "Budha",
+                    "persentase": "(0,13%)"
+                }
+            ],
+            "bahasa": [
+                "268 Bahasa Daerah",
+                "indonesia"
+            ],
+            "suku": [
+                {
+                    "nama": "Suku Aitinyo",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Aefak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Asmat",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Agast",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Dani",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Ayamaru",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Mandacan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Kambouw",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Serui",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Mee",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Amungme",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Kamoro",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Jawa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Makassar",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Bugis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Buton",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Batak",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Minahasa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Huli",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Suku Tionghoa",
+                    "tempat": ""
+                }
+            ]
+        }
+    }
+}

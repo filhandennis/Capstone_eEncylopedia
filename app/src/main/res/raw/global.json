@@ -1,0 +1,236 @@
+{
+      "provinsi":
+      {
+            "11":
+            {
+                  "nama": "Aceh",
+                  "ibukota": "Banda Aceh",
+                  "lambang": "Pancacita",
+                  "deskripsi": "Aceh yang mula-mula bernama Aceh Darussalam (1511-1959) selanjutnya pernah disebut dengan nama Daerah Istimewa Aceh (1959-2001) dan Nanggroe Aceh Darussalam (2001-2009) dan menjadi provinsi Aceh (2009-sekarang)adalah provinsi paling barat di Indonesia. Aceh memiliki otonomi yang diatur tersendiri, berbeda dengan kebanyakan provinsi lain di Indonesia, karena alasan sejarah"
+            },
+            "12":
+            {
+                  "nama": "Sumatera Utara",
+                  "ibukota": "Medan",
+                  "lambang": "",
+                  "deskripsi":"Sumatera Utara adalah sebuah provinsi yang terletak di Pulau Sumatera, Indonesia dan beribukota di Medan."
+            },
+            "13":
+            {
+                  "nama": "Sumatera Barat",
+                  "ibukota": "Padang",
+                  "lambang": "Tuah Sakato",
+                  "deskripsi": "Sumatera Barat adalah salah satu provinsi di Indonesia yang terletak di pulau Sumatera dengan Padang sebagai ibu kotanya. Sesuai dengan namanya, wilayah provinsi ini menempati sepanjang pesisir barat Sumatera bagian tengah dan sejumlah pulau di lepas pantainya seperti Kepulauan Mentawai. Dari utara ke selatan, provinsi dengan wilayah seluas 42.297,30 km² ini berbatasan dengan empat provinsi, yakni Sumatera Utara, Riau, Jambi, dan Bengkulu."
+            },
+            "14":
+            {
+                  "nama": "Riau",
+                  "ibukota": "Pekanbaru",
+                  "lambang": "",
+                  "deskripsi": "Riau adalah sebuah provinsi di Indonesia yang terletak di bagian tengah pulau Sumatera. Provinsi ini termasuk salah satu provinsi makmur di Indonesia, dengan gross regional product per kapita sebesar USD 7.886 (2008)"
+            },
+            "16":
+            {
+                  "nama": "Sumatera Selatan",
+                  "ibukota": "Palembang",
+                  "lambang": "Bersatu Teguh",
+                  "deskripsi": "Sumatera Selatan adalah salah satu provinsi Indonesia yang terletak di bagian selatan Pulau Sumatera. Provinsi ini beribukota di Palembang. Secara geografis provinsi Sumatera Selatan berbatasan dengan provinsi Jambi di utara, provinsi Kep. Bangka-Belitung di timur, provinsi Lampung di selatan dan Provinsi Bengkulu di barat. Provinsi ini kaya akan sumber daya alam, seperti minyak bumi, gas alam dan batu bara. Selain itu ibu kota provinsi Sumatera Selatan, Palembang, telah terkenal sejak dahulu karena menjadi pusat Kerajaan Sriwijaya"
+            },
+            "15":
+            {
+                  "nama": "Jambi",
+                  "ibukota": "Kota Jambi",
+                  "lambang": "Sepucuk Jambi Sembilan Lurah",
+                  "deskripsi": "Jambi adalah sebuah provinsiIndonesia yang terletak di pesisir timur di bagian tengah Pulau Sumatera. Jambi adalah satu dari tiga provinsi di Indonesia yang ibukotanya bernama sama dengan nama provinsinya, selain Bengkulu dan Gorontalo. Jambi merupakan tempat berasalnya Bangsa Melayu yaitu dari Kerajaan Malayu di Batang Hari Jambi. Bahasa Melayu Jambi sama seperti Melayu Palembang dan Melayu Bengkulu, yaitu berdialek 'o'"
+            },
+            "17":
+            {
+                  "nama": "Bengkulu",
+                  "ibukota": "Kota Bengkulu",
+                  "lambang": "",
+                  "deskripsi" : "Bengkulu (bahasa Belanda: Benkoelen atau Bengkulen, bahasa Inggris: Bencoolen, bahasa Malaysia: Bangkahulu, Bahasa RejangBekuleuw/Bekulauw), terletak di bagian barat daya pulau Sumatera adalah sebuah provinsi yang terletak di Pulau Sumatera, Indonesia."
+            },
+            "18":
+            {
+                  "nama": "Lampung",
+                  "ibukota": "Bandar Lampung",
+                  "lambang": "Sang Bumi Ruwa Jurai",
+                  "deskripsi": "Provinsi Lampung dengan ibukota Bandar Lampung, yang merupakan gabungan dari kota kembar Tanjungkarang dan Telukbetung memiliki wilayah yang relatif luas, dan menyimpan potensi kelautan. Pelabuhan utamanya bernama Pelabuhan Panjang dan Pelabuhan Bakauheni serta pelabuhan nelayan seperti Pasar Ikan (Telukbetung), Tarahan, dan Kalianda di Teluk Lampung."
+            },
+            "19":
+            {
+                  "nama": "Kepulauan Bangka Belitung",
+                  "ibukota": "PangkalPinang",
+                  "lambang": "Serumpun Sebalai",
+                  "deskripsi": "Provinsi Kepulauan Bangka Belitung sebelumnya adalah bagian dari Sumatera Selatan, namun menjadi provinsi sendiri bersama Banten dan Gorontalo pada tahun 2000. Provinsi Kepulauan Bangka Belitung didirikan berdasarkan Undang-Undang Nomor 27 Tahun 2000 Tentang Pembentukan Provinsi Kepulauan Bangka Belitung tanggal 21 November 2000 yang terdiri dari Kabupaten Bangka, Kabupaten Belitung dan Kota Pangkalpinang. Pada tahun 2003 berdasarkan Undang-Undang Nomor 5 Tahun 2003 tanggal 23 Januari 2003 dilakukan pemekaran wilayah dengan penambahan 4 kabupaten yaitu Bangka Barat, Bangka Tengah, Bangka Selatan dan Belitung Timur. Provinsi Kepulauan Bangka Belitung merupakan pemekaran wilayah dari Provinsi Sumatera Selatan."
+            },
+            "21":
+            {
+                  "nama": "Kepulauan Riau",
+                  "ibukota": "Palembang",
+                  "lambang": "Berpancang Amanah Bersauh Marwah",
+                  "deskripsi": "Secara keseluruhan wilayah Kepulauan Riau terdiri dari 4 kabupaten dan 2 kota, 47 kecamatan serta 274 kelurahan/desa dengan jumlah 2.408 pulau besar dan kecil yang 30% belum bernama dan berpenduduk. Adapun luas wilayahnya sebesar 252.601 km², sekitar 95% merupakan lautan dan hanya sekitar 5% daratan."
+            },
+            "31":
+            {
+                  "nama": "Daerah Khusus Ibukota Jakarta",
+                  "ibukota": "Jakarta",
+                  "lambang": "Jaya Raya",
+                  "deskripsi": "Daerah Khusus Ibukota Jakarta (DKI Jakarta, Jakarta Raya) adalah ibu kota negara Indonesia. Jakarta merupakan satu-satunya kota di Indonesia yang memiliki status setingkat provinsi. Jakarta terletak di bagian barat laut Pulau Jawa. Dahulu pernah dikenal dengan namaSunda Kelapa (sebelum 1527), Jayakarta (1527-1619), Batavia/Batauia, atau Jaccatra (1619-1942), dan Djakarta (1942-1972). Jakarta memiliki luas sekitar 661,52 km² (lautan: 6.977,5 km²), dengan penduduk berjumlah 9.607.787 jiwa (2010).[2] Wilayah metropolitan Jakarta (Jabotabek) yang berpenduduk sekitar 28 juta jiwa, merupakan metropolitan terbesar di Indonesia atau urutan keenam dunia."
+            },
+            "32":
+            {
+                  "nama": "Jawa Barat",
+                  "ibukota": "Bandung",
+                  "lambang": "Gemah Ripah Repeh Rapih",
+                  "deskripsi": "Jawa Barat adalah sebuah provinsi di Indonesia. Ibu kotanya berada di Kota Bandung. Perkembangan Sejarah menunjukkan bahwa Provinsi Jawa Barat merupakan Provinsi yang pertama dibentuk di wilayah Indonesia (staatblad Nomor : 378). Provinsi Jawa Barat dibentuk berdasarkan UU No.11 Tahun 1950, tentang Pembentukan Provinsi Jawa Barat. Jawa Barat merupakan provinsi dengan jumlah penduduk terbanyak di Indonesia."
+            },
+            "33":
+            {
+                  "nama": "Jawa Tengah",
+                  "ibukota": "Semarang",
+                  "lambang": "Prasetya Ulah Sakti Bhakti Praja",
+                  "deskripsi": "Jawa Tengah adalah sebuah provinsi Indonesia yang terletak di bagian tengah Pulau Jawa. Provinsi ini berbatasan dengan Provinsi Jawa Barat di sebelah barat, Samudra Hindia dan Daerah Istimewa Yogyakarta di sebelah selatan, Jawa Timur di sebelah timur, dan Laut Jawa di sebelah utara. Luas wilayahnya 32.548 km², atau sekitar 25,04% dari luas pulau Jawa. Provinsi Jawa Tengah juga meliputi Pulau Nusakambangan di sebelah selatan (dekat dengan perbatasan Jawa Barat), serta Kepulauan Karimun Jawa di Laut Jawa."
+            },
+            "34":
+            {
+                  "nama": "Daerah Istimewa Yogyakarta",
+                  "ibukota": "Yogyakarta",
+                  "lambang": "Amemayu Hayuning Bawana",
+                  "deskripsi": ""
+            },
+            "35":
+            {
+                  "nama": "Jawa Timur",
+                  "ibukota": "Surabaya",
+                  "lambang": "Jer Basuki Mawa Béya",
+                  "deskripsi": ""
+            },
+            "36":
+            {
+                  "nama": "Banten",
+                  "ibukota": "Serang",
+                  "lambang": "Iman Taqwa",
+                  "deskripsi": "Banten adalah sebuah provinsi di Pulau Jawa, Indonesia. Provinsi ini dulunya merupakan bagian dari Provinsi Jawa Barat, namun dipisahkan sejak tahun 2000, dengan keputusan Undang-Undang Nomor 23 Tahun 2000. Pusat pemerintahannya berada di Kota Serang."
+            },
+            "51":
+            {
+                  "nama": "Bali",
+                  "ibukota": "Denpasar",
+                  "lambang": "Bali Dwipa Jaya",
+                  "deskripsi": "Bali adalah nama salah satu provinsi di Indonesia dan juga merupakan nama pulau terbesar yang menjadi bagian dari provinsi tersebut. Selain terdiri dari Pulau Bali, wilayah Provinsi Bali juga terdiri dari pulau-pulau yang lebih kecil di sekitarnya, yaitu Pulau Nusa Penida, Pulau Nusa Lembongan, Pulau Nusa Ceningan dan Pulau Serangan."
+            },
+            "52":
+            {
+                  "nama": "Nusa Tenggara Barat",
+                  "ibukota": "Mataram",
+                  "lambang": "",
+                  "deskripsi": ""
+            },
+            "53":
+            {
+                  "nama": "Nusa Tenggara Timur",
+                  "ibukota": "Kupang",
+                  "lambang": "",
+                  "deskripsi": ""
+            },
+            "61":
+            {
+                  "nama": "Kalimantan Barat",
+                  "ibukota": "Pontianak",
+                  "lambang": "",
+                  "deskripsi": ""
+            },
+            "62":
+            {
+                  "nama": "Kalimantan Tengah",
+                  "ibukota": "Palangkaraya",
+                  "lambang": "Isen Mulang",
+                  "deskripsi": ""
+            },
+            "63":
+            {
+                  "nama": "Kalimantan Selatan",
+                  "ibukota": "Banjarmasin",
+                  "lambang": "Haram Manyarah Waja Sampai Kaputing",
+                  "deskripsi": ""
+            },
+            "64":
+            {
+                  "nama": "Kalimantan Timur",
+                  "ibukota": "Samarinda",
+                  "lambang": "",
+                  "deskripsi": ""
+            },
+            "71":
+            {
+                  "nama": "Sulawesi Utara",
+                  "ibukota": "Manado",
+                  "lambang": "Si Tou Timou Tumou Tou",
+                  "deskripsi": ""
+            },
+            "72":
+            {
+                  "nama": "Sulawesi Tengah",
+                  "ibukota": "Palu",
+                  "lambang": "Maliu Ntinuvu",
+                  "deskripsi": ""
+            },
+            "73":
+            {
+                  "nama": "Sulawesi Selatan",
+                  "ibukota": "Makassar",
+                  "lambang": "Todo Puli",
+                  "deskripsi": ""
+            },
+            "74":
+            {
+                  "nama": "Sulawesi Tenggara",
+                  "ibukota": "Kendari",
+                  "lambang": "",
+                  "deskripsi": ""
+            },
+            "75":
+            {
+                  "nama": "Gorontalo",
+                  "ibukota": "Kota Gorontalo",
+                  "lambang": "Duluo Limo Lo Pohalaa",
+                  "deskripsi": "Gorontalo adalah provinsi yang ke-32 di Indonesia. Sebelumnya Gorontalo merupakan wilayah Kabupaten Gorontalo dan Kota Madya Gorontalo di Sulawesi Utara. Seiring dengan munculnya pemekaran wilayah berkenaan dengan otonomi daerah, provinsi ini kemudian dibentuk berdasarkan Undang-Undang Nomor 38 Tahun 2000, tertanggal 22 Desember2000."
+            },
+            "76":
+            {
+                  "nama": "Sulawesi Barat",
+                  "ibukota": "Mamuju",
+                  "lambang": "Mellete Diatonganan",
+                  "deskripsi": ""
+            },
+            "81":
+            {
+                  "nama": "Maluku",
+                  "ibukota": "Ambon",
+                  "lambang": "Siwa Lima",
+                  "deskripsi": ""
+            },
+            "82":
+            {
+                  "nama": "Maluku Utara",
+                  "ibukota": "Sofifi",
+                  "lambang": "Marimoi Ngone Futuru",
+                  "deskripsi": ""
+            },
+            "91":
+            {
+                  "nama": "Papua Barat",
+                  "ibukota": "Manokwari",
+                  "lambang": "Cintaku Negeriku",
+                  "deskripsi": ""
+            },
+            "92":
+            {
+                  "nama": "Papua",
+                  "ibukota": "Jayapura",
+                  "lambang": "Karya Swadaya",
+                  "deskripsi": ""
+            }
+      }
+}

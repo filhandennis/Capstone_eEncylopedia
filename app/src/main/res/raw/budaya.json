@@ -1,0 +1,1277 @@
+{
+    "provinsi": {
+        "11": {
+            "nama": "Aceh",
+            "lagu": [
+                "Bungong Jeumpa",
+                "Piso Surit",
+                "Sepakat Segenap"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Guel",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Meuseukat",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Saman",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Tari Seudati",
+                    "gambar": "4.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Rencong",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Ulee Balang",
+                "deskripsi": "Pakaian tradisional aceh biasa disebut Ulee Balang. Pakaian tersebut biasanya digunakan oleh para raja dan keluarganya.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumoh Aceh",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Didong",
+                    "deskripsi": "seni pertunjukan dari masyarakat Gayo"
+                },
+                {
+                    "nama": "Meuseukee Eungkot",
+                    "deskripsi": "tradisi di wilayah Aceh Barat"
+                },
+                {
+                    "nama": "Peusijuek",
+                    "deskripsi": "atau Tepung tawar dalam tradisi Melayu"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Cut Nyak Dhien",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Cut Nyak Meutia",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Achmad Soebardjo",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Sultan Iskandar Muda",
+                    "gambar": "4.jpg"
+                },
+                {
+                    "nama": "Teungku Chik Di Tiro",
+                    "gambar": "5.jpg"
+                },
+                {
+                    "nama": "Teuku Umar",
+                    "gambar": "6.jpg"
+                },
+                {
+                    "nama": "Teuku Nyak Arif",
+                    "gambar": "7.jpg"
+                },
+                {
+                    "nama": "Mr. Teuku Muhammad Hasan",
+                    "gambar": "8.jpg"
+                }
+            ]
+        },
+        "12": {
+            "nama": "Sumatera Utara",
+            "lagu": [
+                "Butet",
+                "Sinanggar Tulo",
+                "Anju Ahu",
+                "Dago Inang Sarge"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Karo",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Serampang Dua Belas",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Tor-tor",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Tari Seudati",
+                    "gambar": "4.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Pisau Surit",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Ulos",
+                "deskripsi": "Pakaian tradisional Sumatera Utara biasa disebut dengan Ulos. Pakaian adat Ulos dianggap oleh masyarakat suku Batak Karo sebagai ajimat yang mempunyai daya magis tertentu.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Jabu Bolon",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Sikambang",
+                    "deskripsi": "serangkaian alat musik etnis pesisir"
+                },
+                {
+                    "nama": "Ulos",
+                    "deskripsi": "kain adat Batak yang digunakan dalam upacara-upacara perkawinan, kematian, mendirikan rumah, kesenian,dsb."
+                },
+                {
+                    "nama": "Seni hias Singa-singa",
+                    "deskripsi": "hiasan rumah orang batak toba"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Sisingamangaraja XII",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Adam Malik",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Amir Hamzah",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Kiras Bangun",
+                    "gambar": "4.jpg"
+                },
+                {
+                    "nama": "Ferdinand LumbanTobing",
+                    "gambar": "5.jpg"
+                },
+                {
+                    "nama": "AH Nasution",
+                    "gambar": "6.jpg"
+                }
+            ]
+        },
+        "13": {
+            "nama": "Sumatera Barat",
+            "lagu": [
+                "Ayam Den Lapeh",
+                "Kampuang Nan Jauah di Mato",
+                "Kambanglah Bungo",
+                "Bareh Solok"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Payung",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Piring",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Randai",
+                    "gambar": "3.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Karih",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Bundo Kanduang",
+                "deskripsi": "Pakaian tradisional Sumatera Barat di bagi menjadi 2 yaitu Pakaian Penghulu dan Pakaian Adat Bundo Kanduang yang terdapat di daerah Minangkabau Sumatra Barat.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumah Gadang",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Silek Harimau Minangkabau",
+                    "deskripsi": "pencak silat di Minangkabau"
+                },
+                {
+                    "nama": "Saluang",
+                    "deskripsi": "alat musik tradisional"
+                },
+                {
+                    "nama": "Limpapeh",
+                    "deskripsi": "ukiran bunga yang sedang mekar"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Imam Bonjol",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Bagindo Azizchan",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Mohammad Hatta",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Rasuna Said",
+                    "gambar": "4.jpg"
+                },
+                {
+                    "nama": "Sutan Sjahrir",
+                    "gambar": "5.jpg"
+                },
+                {
+                    "nama": "Abdul Muis",
+                    "gambar": "6.jpg"
+                }
+            ]
+        },
+        "14": {
+            "nama": "Riau",
+            "lagu": [
+                "Lancang Kuning",
+                "Soleram",
+                "Langgam Melayu",
+                "Kutang Barendo"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Mak Yong",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Zapin",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Joged Lambak",
+                    "gambar": "3.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Pedang Jenawi",
+                "gambar": "Psenjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "teluk belanga",
+                "deskripsi": "Untuk pakaian pria, baju yang dipakai adalah baju Melayu berupa atasan yang disebut teluk belanga. Untuk perempuan, pakaian yang dipakai berupa baju kurung, kain, dan selendang. ",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Selaso Jatuk Kembar",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "teater Makyong",
+                    "deskripsi": "seni teater tradisional masyarakat Melayu yang sampai sekarang masih digemari dan sering dipertunjukkan sebagai dramatari dalam forum internasional. "
+                },
+                {
+                    "nama": "Kain tenun khas Riau",
+                    "deskripsi": "Kain tenun khas Riau antara lain kain tenun Siak dari Siak Sri Indrapura, kain sutera corak lintang dari Siantan, serta kain sutera petak catur dan kain mastuli dari Daik Lingga."
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Sultan Syarif Kasim II",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tuanku Tambusai",
+                    "gambar": "2.jpg"
+                }
+            ]
+        },
+        "15": {
+            "nama": "Jambi",
+            "lagu": [
+                "Batanghari",
+                "Injit-injit Semut",
+                "Selendang Mayang"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Selampit Delapan",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Sekapur Sirih",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Kisan",
+                    "gambar": "3.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Keris Jambi",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Pakaian Adat Melayu",
+                "deskripsi": "Pakaian adat melayu Jambi biasanya lebih mewah daripada pakaian yang digunakan sehari-hari karena disulam dengan benang emas dan dihiasi dengan berbagai hiasan untuk kelengkapannya.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumah Kajang Lako",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Kompangan",
+                    "deskripsi": "Kompangan adalah kesenian tradisional Jambi yang mempergunakan alat musik rebana untuk mengiringi bacaan Sholawat Nabi. "
+                },
+                {
+                    "nama": "Batik Tulis Jambi",
+                    "deskripsi": "Merupakan kain batik dengan motif khas Jambi"
+                },
+                {
+                    "nama": "Ukiran Akar Khas Jambi ",
+                    "deskripsi": "mebel ukiran berbentuk akar dan memiliki ciri khas yaitu tidak digunakannya paku pada pengerjaannya"
+                },
+                {
+                    "nama": "Upacara Mandi Shafar ",
+                    "deskripsi": "satu bentuk upacara ritual yang telah hidup dan berkembang di desa Air Hitamlaut Kabupaten Tanjung Jabung Timur."
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Thaha Syaiffudin",
+                    "gambar": "1.jpg"
+                }
+            ]
+        },
+        "16": {
+            "nama": "Sumatera Selatan",
+            "lagu": [
+                "Deng Sangke",
+                "Kabile-kabile"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Putri Bekhusek",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Gending Sriwijaya",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Tanggai",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Tari Rodat Cempako",
+                    "gambar": "4.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Keris Palembang",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Aesan Gede",
+                "deskripsi": "Pakaian tradisional masyarakat Sumatera Selatan biasa disebut dengan nama Aaesan Gede. Baju adat ini terinspirasi dari zaman kerajaan Sriwijaya yang dulunya berjaya di daerah Sumatera Selatan.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumah Limas",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Dul Muluk",
+                    "deskripsi": "teater tradisional yang berkembang di Sumatera Selatan."
+                },
+                {
+                    "nama": "Wayang Palembang",
+                    "deskripsi": "warisan dari kesenian Jawa yang ceritanya sama dengan wayang yang ada di Pulau Jawa, namun bahasa yang digunakan adalah bahasa Palembang"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "A.K. Gani",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Sutan Mahmud Badaruddin II",
+                    "gambar": "2.jpg"
+                }
+            ]
+        },
+        "17": {
+            "nama": "Bengkulu",
+            "lagu": [
+                "Lalan Bebek"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Andun",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Tabot",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Kejai",
+                    "gambar": "3.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Keris Bengkulu",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Pakaian Adat Melayu Bengkulu",
+                "deskripsi": "Pakaian Adat Pria terdiri atas jas, sarung, celana panjang, alas kaki yang dilengkapi dengan tutup kepala dan sebuah keris. Pakaian Adat Wanita Bengkulu mengenakan baju kurung berlengan panjang, bertabur corak-corak, sulaman emas berbentuk lempengan-lempengan bulat seperti uang logam. ",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumah Bubungan Lima",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Andi-andi",
+                    "deskripsi": "seni sastra yang berupa nasihat. "
+                },
+                {
+                    "nama": "Sambei",
+                    "deskripsi": "seni vokal khas suku Rejang,biasanya untuk pesta perkawinan"
+                },
+                {
+                    "nama": "Batik Besurek",
+                    "deskripsi": "kain batik yang dihiasi huruf-huruf Arab gundul"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Prof. DR. Hazairin",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Fatmawati",
+                    "gambar": "2.jpg"
+                }
+            ]
+        },
+        "18": {
+            "nama": "Lampung",
+            "lagu": [
+                "Sang Bumi Ruwa Jurai",
+                "Lipang Lipang Dang"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Sembah",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Melinting",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Bedana",
+                    "gambar": "3.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Terapang",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Pakaian Adat Tulang Bawang",
+                "deskripsi": "Pakaian tradisional Lampung biasanya di dominasi oleh warna putih dengan diselingi motif warna merah dan kuning keemasan sehingga terkesan putih bersih namun tetap terlihat elegan.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "pbaju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumah Nuwo Sesat",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "kain tenun tapis lampung",
+                    "deskripsi": " kain tenun bersulam benang emas yang indah. "
+                },
+                {
+                    "nama": "Festival Topeng Sekura",
+                    "deskripsi": "Festival ini dilakukan dengan sebuah tarian yang bernama tarian sekura, yang merupakan wujud kebahagiaan umat muslim setelah sebulan berpuasa."
+                },
+                {
+                    "nama": "Festival Krakatau",
+                    "deskripsi": "Festival ini pada dasarnya dilakukan untuk memperingati letusan Gunung Krakatau di tahun 1883"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Raden Inten II",
+                    "gambar": "1.jpg"
+                }
+            ]
+        },
+        "19": {
+            "nama": "Kepulauan Bangka Belitung",
+            "lagu": [
+                "Yo Miak",
+                "Bujang Lapo"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Campak",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Sepen",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Selamat Datang",
+                    "gambar": "T3.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Siwar Panjang",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Pakaian Adat Paksian dan Sungkon",
+                "deskripsi": "Pengantin perempuan biasanya memakai baju kurung berwarna merah yang berbahan kain sutra. Kepala mempelai wanita biasanya memakai mahkota yang biasa disebut dengan nama Paksian. Sedangkan pengantin pria menggunakan Sorban atau yang biasa disebut masyarakat Bangka Belitung sebagai Sungkon.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumah Rakit",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Dambus",
+                    "deskripsi": "musik etnik melayu"
+                }
+            ],
+            "pahlawan": [
+                {}
+            ]
+        },
+        "21": {
+            "nama": "Kepulauan Riau",
+            "lagu": [
+                "Soleram",
+                "Langgam Melayu"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Joged Dangkong",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Melemang",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Kipas Mendu",
+                    "gambar": "3.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Badik Tumbuk Lada",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Teluk Belanga dan Baju Kurung",
+                "deskripsi": "Untuk pakaian pria, baju yang dipakai adalah baju Melayu berupa atasan yang mirip seperti kemeja tetapi tidak memiliki potongan. Untuk perempuan, pakaian yang dipakai berupa baju kurung, kain, dan selendang.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumah Belah Bubung",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Teater Makyong",
+                    "deskripsi": "Teater Makyong di Kabupaten Bintan tepatnya di Pulau Mantang, Pulau Panjang, Batam"
+                },
+                {
+                    "nama": "Teater Mendu",
+                    "deskripsi": "Teater Mendu di Kabupaten Ranai tepatnya di Kecamatan Sedanau dan Ranai"
+                },
+                {
+                    "nama": "Teater Lang-lang Buana",
+                    "deskripsi": "Teater Lang-lang Buana di Kabupaten Natuna tepatnya di Ranai "
+                },
+                {
+                    "nama": "Wayang Bangsawan",
+                    "deskripsi": "Wayang Bangsawan di Daik Lingga, Dabo Singkep, Pulau Penyengat"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Raja Haji Fisabililah",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Raja Ali Haji",
+                    "gambar": "2.jpg"
+                }
+            ]
+        },
+        "31": {
+            "nama": "DKI Jakarta",
+            "lagu": [
+                "Kicir-kicir",
+                "Surilang",
+                "Jali-jali",
+                "Keroncong Kemayoran",
+                "Ronggeng"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Yapong",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Samrah",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Topeng",
+                    "gambar": "3.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Golok Betawi",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Pakaian Adat Betawi",
+                "deskripsi": "Pakaian yang digunakan pengantin pria, yang terdiri dari: sorban, jubah panjang dan celana panjang banyak dipengaruhi oleh kebudayaan Arab. Sedangkan pada pakaian pengantin wanita yang menggunakan syangko (penutup muka), baju model encim dan rok panjang memperlihatkan adanya pengaruh kebudayaan Cina",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumah Kebaya",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Gambang kromong",
+                    "deskripsi": "merupakan salah satu musik khas dari kesenian Betawi yang paling terkenal"
+                },
+                {
+                    "nama": "Orkes samrah",
+                    "deskripsi": "kesenian Betawi yangdalam bentuk orkes yang mendapat pengaruh dari suku Melayu"
+                },
+                {
+                    "nama": "Tanjidor",
+                    "deskripsi": "sebuah kesenian Betawi yang berbentuk orkes"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Ismail Marzuki",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "M. Husni THamrin",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Noer Alie",
+                    "gambar": "3.jpg"
+                }
+            ]
+        },
+        "32": {
+            "nama": "Jawa Barat",
+            "lagu": [
+                "Bubuy Bulan",
+                "Cing Cangkeling",
+                "Manuk Dadali",
+                "Tokecang"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Jaipong",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Merak",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Topeng Kuncaran",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Tari Ketuk Tilu",
+                    "gambar": "4.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Kujang",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Kebaya",
+                "deskripsi": "Pakaian untuk laki-laki pada umumnya adalah baju takwa dan celana warna hitam, dilengkapi dengan kain dodot dan tutup kepala bendo terbuat dari kain batik halus bermotif sama dengan kain dodot. Untuk kesempatan resmi, pakaian perempuan Priangan dilengkapi dengan sehelai selendang berwarna sama dengan kebaya dan alas kakinya berupa sandal selop. ",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Keraton Kasepuhan Cirebon",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "kuda renggong",
+                    "deskripsi": "seni pertunjukan rakyat yang berbentuk seni pawai"
+                },
+                {
+                    "nama": "sisingaan",
+                    "deskripsi": "keterampilan memainkan tandu berisi boneka singa"
+                },
+                {
+                    "nama": "Angklung dan Calung",
+                    "deskripsi": "Alat Musik tradisional dari bambu"
+                },
+                {
+                    "nama": "Gamelan",
+                    "deskripsi": "Seperangkat alat musik"
+                },
+                {
+                    "nama": "Wayang Golek",
+                    "deskripsi": "wayang berbentuk boneka"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Otto Iskandar Dinata",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Ir H Juanda",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "LREE Martadinata",
+                    "gambar": "3.jpg"
+                }
+            ]
+        },
+        "33": {
+            "nama": "Jawa Tengah",
+            "lagu": [
+                "Gambang Suling",
+                "Gundul Pacul",
+                "Ilir-ilir",
+                "Jamuran",
+                "Suwe Ora Jamu",
+                "Sinom"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Gambyong",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Gatotkaca Gandrung",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Bugis Kembar",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Tari Serimpi",
+                    "gambar": "4.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Keris",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Kebaya dan Jawi Jangkep",
+                "deskripsi": "Salah satu contoh pakaian upacara yang biasa dipakai dikalangan keraton adalah baju kebaya menggunakan peniti renteng, dipadukan dengan kain sinjang atau jarik corak batik. Bagian kepala rambutnya digelung (sanggul), dan dilengkapi dengan perhiasan yang dipakai seperti subang (anting-anting), cincin, kalung, gelang, serta kipas.  pakaian bagi kaum laki-laki, khususnya kerabat keraton adalah memakai baju beskap kembang-kembang atau motif bunga lainnya. Pada kepala memakai destar (blankon), kain samping jarik, stagen untuk mengikat kain samping, keris dan alas kaki (cemila). Pakaian ini dinamakan Jawi Jangkep, yaitu pakaian laki-laki Jawa lengkap dengan keris.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Padepokan",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Dugder ",
+                    "deskripsi": "upacara tradisi semarang"
+                },
+                {
+                    "nama": "Batik",
+                    "deskripsi": "satu cara pembuatan bahan pakaian"
+                },
+                {
+                    "nama": "Wayang Purwo",
+                    "deskripsi": "bentuk pementasan Wayang Kulit "
+                },
+                {
+                    "nama": "Gamelan",
+                    "deskripsi": "Seperangkat alat musik dari Jawa"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "KH. Samanhudi",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Jend. Gatot Subroto",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "RA. Kartini",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Jend. Sudirman",
+                    "gambar": "4.jpg"
+                }
+            ]
+        },
+        "34": {
+            "nama": "Daerah Istimewa Yogyakarta",
+            "lagu": [
+                "Pitik Tukung",
+                "Kidang Talun",
+                "Menthok-menthok",
+                "Gethuk",
+                "Gek Kepriye"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Kelono Topeng",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Gambir Anom",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Bondan",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Tari Serial Ramayana",
+                    "gambar": "4.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Keris Yogyakarta",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Beskap dan Surjan",
+                "deskripsi": "Secara keseluruhan seperangkat pakaian terdiri dari bagian atas, bagian tengah, dan bagian bawah. Bagian atas meliputi tutup kepala(Blangkon untuk laki-laki) dan tata rias rambut (Sanggul, Konde,); bagian tengah terdiri dari baju (Surjan untuk laki-laki, dan Kebaya untuk perempuan), dan perhiasan (aksesori); serta bagian bawah berupa alas kaki. Penggolongan pakaian tersebut harus berdasarkan jenis kelamin, usia, dan status sosial.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Bangsal Kencono Keraton",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Langen Mandra Wanara",
+                    "deskripsi": "kombinasi antara berbagai jenis tarian, tembang, drama dan irama gamelan"
+                },
+                {
+                    "nama": "Ketoprak",
+                    "deskripsi": "drama tradisional yang diperagakan oleh sebuah grup kesenian dan digelarkan di sebuah panggun"
+                },
+                {
+                    "nama": "Wayang Kulit",
+                    "deskripsi": "bentuk pementasan Wayang Kulit "
+                },
+                {
+                    "nama": "Sendratari Ramayana",
+                    "deskripsi": "pertunjukan seni tari tanpa dialog yang menceritakan tentang cerita Ramayana"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Ki Hajar Dewantoro",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Surjopranoto",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "KH. Ahmad Dahlan",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "DR. Wahidin Soedirohoesodo",
+                    "gambar": "4.jpg"
+                }
+            ]
+        },
+        "35": {
+            "nama": "Jawa Timur",
+            "lagu": [
+                "Karapan Sapi",
+                "Tanduk Majeng"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Gandrung Banyuwangi",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Remo",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Reog",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Tari Jaran Kepang",
+                    "gambar": "4.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Clurit",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Pesa’an",
+                "deskripsi": "Pakaian priaterkesan sederhana karena hanya berupa kaos bergaris merah putih dan celana longgar. Untuk wanita biasa menggunakan kebaya. Ciri khas dari kebaya adalah penggunaan kutang polos dengan warna cerah yang mencolok. Sehingga keindahan tubuh si pemakai akan terlihat jelas.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Joglo",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Ludruk",
+                    "deskripsi": "salah satu kesenian Jawa Timuran yang cukup terkenal, yakni seni panggung yang umumnya seluruh pemainnya adalah laki-laki"
+                },
+                {
+                    "nama": "Singo Wulung",
+                    "deskripsi": "kebudayaan khas Bondowoso"
+                },
+                {
+                    "nama": "Macan kadhuk",
+                    "deskripsi": "kebudayaan khas Jember"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Hasyim Asyari",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Wahid Hasyim",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Soetomo",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Suprijadi",
+                    "gambar": "4.jpg"
+                },
+                {
+                    "nama": "Oemas Said Tjokroaminoto",
+                    "gambar": "5.jpg"
+                },
+                {
+                    "nama": "Soekarno",
+                    "gambar": "6.jpg"
+                }
+            ]
+        },
+        "36": {
+            "nama": "Banten",
+            "lagu": [
+                "Dayung Sampan",
+                "Jareh Bu Guru"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Rampak Bedug",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Cukin",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Cokek",
+                    "gambar": "3.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Golok",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "baju pangsi dan celana komprang",
+                "deskripsi": "Baju yang dikenakan masyarakat Banten sering disebut dengan baju pangsi. Sementara celananya disebut dengan celana komprang yang panjangnya sebatas mata kaki atau sampai betis. ",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumah Badui",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Angklung buhun",
+                    "deskripsi": "alat musik tradisional khas Kabupaten Lebak, Provinsi Banten"
+                },
+                {
+                    "nama": "Bendrong Lesung",
+                    "deskripsi": "salah satu kesenian tradisional masyarakat Cilegon-Banten menyambut panen raya"
+                },
+                {
+                    "nama": "Debus",
+                    "deskripsi": "pertunjukan kekebalan tubuh berkembang di kabupaten lebak, pandeglang, kota cilegon dan kota serang"
+                },
+                {
+                    "nama": "Seni Saman / Dzikir Maulud ",
+                    "deskripsi": "kesenian tradisional rakyat Banten khususnya di Kabupaten Pandeglang yang menggunakan media gerak dan lagu (vokal) dan syair-syair yang dilantunkan mengagungkan Asma Allah dan pujian kepada Nabi Muhammad SAW. "
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Sultan Ageng Tirtayasa",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Sjarifudin Prawiranegara",
+                    "gambar": "2.jpg"
+                }
+            ]
+        },
+        "51": {
+            "nama": "Bali",
+            "lagu": [
+                "Macep-macepan",
+                "Mejangeran",
+                "Meong-meong",
+                "Ngusak asik",
+                "Putri Ayu",
+                "Ratu Anom"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Janger",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Pendet",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Kecak",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Tari Legong",
+                    "gambar": "4.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Keris Bali",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Busana Agung",
+                "deskripsi": "Busana Agung mempunyai beberapa variasi tergantung tempat, waktu dan keadaan. Kain yang digunakan dalam pakain adat Bali yang satu ni adalah wastra wali khusus untuk upacara atau wastra putih sebagai simbol kesucian.",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Rumah Bali",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Gambelan “Jegog” ",
+                    "deskripsi": "gambelan (alat musik) yang terbuat dari pohon bambu berukuran besar yang dibentuk sedemikian rupa sehingga menjadi seperangkat alat musik bambu yang suaranya sangat merdu dan menawan hati. "
+                },
+                {
+                    "nama": "Genjek ",
+                    "deskripsi": "seni tari dengan musik vokal, di dalamnya berisikan untaian lagu-lagu daerah yang dikemas dengan nada dan gerak-gerik yang kocak, mengundang ketawa."
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Untung Suropati",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "I Gusti Ngurah Rai",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "I Gusti Ketut Jelantik",
+                    "gambar": "3.jpg"
+                }
+            ]
+        },
+        "52": {
+            "nama": "Nusa Tenggara Barat",
+            "lagu": [
+                "Balelebo",
+                "Moree",
+                "O Re Re",
+                "Tebe O Nana",
+                "Tutu Koda"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Cupak Gerantang",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Gandrung",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Rudat",
+                    "gambar": "3.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Sampari",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Pakaian Adat Nusa Tenggara Barat",
+                "deskripsi": "",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Dalam Loka Samawa",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Barapan kebo ",
+                    "deskripsi": "Karapan Kerbau"
+                },
+                {
+                    "nama": "Upacara U’a Pua",
+                    "deskripsi": "Upacara U’a Pua dilaksanakan bersamaan dengan Peringatan Maulid Nabi Muhammad SAW yang juga dirangkai dengan penampilan atraksi Seni Budaya masyarakat Suku Mbojo (Bima) yang berlangsung selama 7 hari."
+                },
+                {
+                    "nama": "Perang Topat",
+                    "deskripsi": "upacara ritual sebagai perwujudan rasa terima kasih kepada tuhan atas kemakmuran berupa tanah yang subur, banyak hujan"
+                },
+                {
+                    "nama": "Nyale",
+                    "deskripsi": "upacara perburuan cacing laut untuk menyambut Pasola"
+                }
+            ],
+            "pahlawan": ""
+        },
+        "53": {
+            "nama": "Nusa Tenggara Timur",
+            "lagu": [
+                "Ala Deng Taeng",
+                "Anak Kambing Saya",
+                "Desaku",
+                "Potok Bebek Angsa"
+            ],
+            "tarian": [
+                {
+                    "nama": "Tari Cerana",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Tari Likurai",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Tari Perang",
+                    "gambar": "3.jpg"
+                },
+                {
+                    "nama": "Tari Bidu",
+                    "gambar": "4.jpg"
+                }
+            ],
+            "senjata": {
+                "nama": "Sundu",
+                "gambar": "senjata.jpg"
+            },
+            "busana_adat": {
+                "nama": "Pakaian Adat Nusa Tenggara Timur",
+                "deskripsi": "",
+                "gambar_1": "baju1.jpg",
+                "gambar_2": "baju2.jpg"
+            },
+            "rumah_adat": {
+                "nama": "Sao asa mosa lakitana",
+                "gambar": "rumah.jpg"
+            },
+            "kesenian": [
+                {
+                    "nama": "Sasando",
+                    "deskripsi": "Instrumen musik petik"
+                },
+                {
+                    "nama": "Pasola ",
+                    "deskripsi": "permainan lempar lembing dari atas kuda"
+                }
+            ],
+            "pahlawan": [
+                {
+                    "nama": "Johaness",
+                    "gambar": "1.jpg"
+                },
+                {
+                    "nama": "Izaak Huru Doko",
+                    "gambar": "2.jpg"
+                },
+                {
+                    "nama": "Wilhelmus Zakaria Johaness",
+                    "gambar": "3.jpg"
+                }
+            ]
+        }
+    }
+}

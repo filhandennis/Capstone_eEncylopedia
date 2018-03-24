@@ -1,0 +1,1568 @@
+{
+    "provinsi": {
+        "11": {
+            "nama": "Aceh",
+            "pertambangan": [
+                {
+                    "nama": "Emas",
+                    "lokasi": [
+                        "Woyla, Seunagan, Aceh Barat",
+                        "Beutong, Payakolak, Takengon Aceh Tengah"
+                    ]
+                },
+                {
+                    "nama": "Batu Bara",
+                    "lokasi": [
+                        "Kaway XI, di Semayan di Aceh Barat"
+                    ]
+                },
+                {
+                    "nama": "Batu Gamping",
+                    "lokasi": [
+                        "Tanah Greuteu, Aceh Besar",
+                        "TapakTuan"
+                    ]
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "cengkeh",
+                "pala",
+                "pinang",
+                "kopi",
+                "karet",
+                "tembakau",
+                "getah damar",
+                "kapuk",
+                "kedelai",
+                "kelapa sawit",
+                "kelapa",
+                "kacang tanah",
+                "jagung",
+                "tebu"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "PT Arun: Kilang Pencairan Gas Alam ",
+                    "tempat": "Lhokseumawe"
+                },
+                {
+                    "nama": "PT Pupuk Iskandar Muda (PIM): Pabrik Pupuk Iskandar Muda ",
+                    "tempat": "Lhokseumawe"
+                },
+                {
+                    "nama": "PT Aceh Asean Fertilizer (AAF): Pabrik Pupuk Asean ",
+                    "tempat": "Lhokseumawe"
+                },
+                {
+                    "nama": "PT Kertas Kraft Aceh (KKA): Pabrik Kertas",
+                    "tempat": "Lhokseumawe"
+                },
+                {
+                    "nama": "PT Semen Andalas Indonesia-Lafarge (SAI): Semen Andalas",
+                    "tempat": "Aceh Besar"
+                },
+                {
+                    "nama": "ExxonMobil: Kilang Gas Alam",
+                    "tempat": "Lhokseumawe"
+                }
+            ]
+        },
+        "12": {
+            "nama": "Sumatera Utara",
+            "pertambangan": [
+                {
+                    "nama": "Minyak Bumi",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "karet",
+                "cokelat",
+                "teh",
+                "kelapa sawit",
+                "kopi",
+                "cengkeh",
+                "kelapa",
+                "kayu manis",
+                "tembakau"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Sorikmas Mining (SMM)",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Newmont Horas Nauli (PTNHN)",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Dairi Prima Mineral",
+                    "tempat": ""
+                }
+            ]
+        },
+        "13": {
+            "nama": "Sumatera Barat",
+            "pertambangan": [
+                {
+                    "nama": "Batu bara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "bijih besi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "timah hitam",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "mangan",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batu besi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batu galena",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "seng",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batu kapur",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "karet",
+                "kelapa",
+                "sayur-mayur",
+                "buah-buahan"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Industri Semen",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Pabrik Tenun",
+                    "tempat": ""
+                }
+            ]
+        },
+        "14": {
+            "nama": "Riau",
+            "pertambangan": [
+                {
+                    "nama": "Minyak Bumi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Batu Bara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Gas Bumi",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "karet",
+                "kelapa sawit",
+                "hasil hutan"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Chevron Pacific Indonesia anak perusahaan Chevron Corporation",
+                    "tempat": ""
+                },
+                {
+                    "nama": "PT. Indah Kiat Pulp & Paper Tbk",
+                    "tempat": "Perawang"
+                },
+                {
+                    "nama": "PT. Riau Andalan Pulp & Paper",
+                    "tempat": "Pangkalan Kerinci"
+                }
+            ]
+        },
+        "15": {
+            "nama": "Jambi",
+            "pertambangan": [
+                {
+                    "nama": "Emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Batu Bara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Minyak Bumi",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "coklat",
+                "cengkeh",
+                "kelapa sawit",
+                "kelapa"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Industri kertas",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri barang dari kertas dan sejenisnya",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri karet dan barang dari karet",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri Makanan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri kayu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri bambu, rotan, rumput dan sejenisnya",
+                    "tempat": ""
+                }
+            ]
+        },
+        "16": {
+            "nama": "Sumatera Selatan",
+            "pertambangan": [
+                {
+                    "nama": "Batu Bara",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "karet",
+                "kelapa sawit",
+                "kelapa",
+                "kopi"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "PT. Semen Baturaja (Persero)",
+                    "tempat": ""
+                },
+                {
+                    "nama": "PT. Pusri",
+                    "tempat": ""
+                },
+                {
+                    "nama": "PT. Dharma Niaga Putera Steel",
+                    "tempat": ""
+                }
+            ]
+        },
+        "17": {
+            "nama": "Bengkulu",
+            "pertambangan": [
+                {
+                    "nama": "Emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Batu Bara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Perak",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "lada",
+                "cengkeh",
+                "coklat",
+                "kopi"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Pengolahan Bahan Galian C PT.Karuna Tani",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Pengolahan Minyak CPO PT. BIO Nusantara",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Pengolahan Udang segar PT.Cendana prioritas lestari",
+                    "tempat": ""
+                }
+            ]
+        },
+        "18": {
+            "nama": "Lampung",
+            "pertambangan": [
+                {
+                    "nama": "Emas",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "lada",
+                "kopi",
+                "cengkih",
+                "kelapa",
+                "pisang",
+                "kelapa sawit",
+                "tembakau",
+                "hasil hutan"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Industri penambakan udang",
+                    "tempat": ""
+                },
+                {
+                    "nama": "pabrik gula Gunung Madu Plantation dan Sugar Group",
+                    "tempat": ""
+                }
+            ]
+        },
+        "19": {
+            "nama": "Kepulauan Bangka Belitung",
+            "pertambangan": [
+                {
+                    "nama": "Timah",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Pasir Kuarsa",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "lada",
+                "cengkeh",
+                "hasil laut"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "industri logam mesin dan elektronika",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pengolahan hasil agro industri, perikanan, perkebunan dan hasil laut.",
+                    "tempat": ""
+                }
+            ]
+        },
+        "21": {
+            "nama": "Kepulauan Riau",
+            "pertambangan": [
+                {
+                    "nama": "Minyak Bumi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Gas Alam",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Timah",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "bauksit",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "pasir besi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "granit",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "pasir dan kuarsa",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "palawija dan holtikultura",
+                "kelapa",
+                "kopi",
+                "gambir",
+                "nenas",
+                "cengkeh",
+                "kelapa sawit"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "industri elektronik",
+                    "tempat": ""
+                },
+                {
+                    "nama": "fabrikasi baja",
+                    "tempat": ""
+                },
+                {
+                    "nama": "penguliran pipa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "peralatan eksplorasi minyak, pra-fabrikasi minyak, jacket lepas pantai dan alat berat",
+                    "tempat": "Bintan, Batam dan Karimun."
+                }
+            ]
+        },
+        "31": {
+            "nama": "Daerah Khusus Ibukota Jakarta",
+            "pertambangan": [
+                {
+                    "nama": "",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                ""
+            ],
+            "perindustrian": [
+                {
+                    "nama": "industri makanan, minuman dan tembakau",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri tekstil, pakaian jadi dan kulit",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri kayu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri kertas, percetakan dan.penerbitan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri kimia dan barang­barang dari kimia",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri bahan galian bukan logam",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri dari logam, mesin dan peralatan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri rumah tangga dan kerajinan",
+                    "tempat": ""
+                }
+            ]
+        },
+        "32": {
+            "nama": "Jawa Barat",
+            "pertambangan": [
+                {
+                    "nama": "Emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "mangan",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Batu Gamping",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "minyak bumi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "gas bumi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "andesit",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "marmer",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "tanah liat",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "kentang manis",
+                "jagung",
+                "buah-buahan dan sayuran",
+                "teh",
+                "kelapa",
+                "minyak sawit",
+                "karet alam",
+                "gula",
+                "coklat",
+                "kopi"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Industri elektronik",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri kulit",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pengolahan makanan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri tekstil",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri furnitur",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pesawat",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri petrokimia",
+                    "tempat": ""
+                }
+            ]
+        },
+        "33": {
+            "nama": "Jawa Tengah",
+            "pertambangan": [
+                {
+                    "nama": "Minyak Bumi",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "tembakau",
+                "karet",
+                "kopi",
+                "kelapa",
+                "jagung",
+                "kayu jati",
+                "tebu",
+                "jambu mente",
+                "sayur-sayuran",
+                "buah-buahan"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "industri kerajinan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri rokok",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri semen",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri tekstil",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri mebel/ukir",
+                    "tempat": ""
+                }
+            ]
+        },
+        "34": {
+            "nama": "Daerah Istimewa Yogyakarta",
+            "pertambangan": [
+                {
+                    "nama": "pasir, kerikil, batu gamping, kalsit, kaolin, dan zeolin serta breksi batu apung",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batu bara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "pasir besi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "mangan",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "emas",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "jagung",
+                "kelapa",
+                "ubi kayu",
+                "jambu mente",
+                "melinjo"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Industri cendera mata",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri kerajinan tangan",
+                    "tempat": ""
+                }
+            ]
+        },
+        "35": {
+            "nama": "Jawa Timur",
+            "pertambangan": [
+                {
+                    "nama": "Minyak Bumi",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "tembakau",
+                "teh",
+                "kopi",
+                "kelapa",
+                "jagung",
+                "tebu",
+                "jambu mente",
+                "sayur-sayuran",
+                "buah-buahan"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Industri perikanan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri rokok",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri kertas",
+                    "tempat": ""
+                }
+            ]
+        },
+        "36": {
+            "nama": "Banten",
+            "pertambangan": [
+                {
+                    "nama": "Besi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Batu Bara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Tembaga",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "kelapa",
+                "cengkeh",
+                "padi",
+                "melinjo",
+                "durian"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Pabrik Besi baja Krakatau Steel, ",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Petrokimia",
+                    "tempat": ""
+                }
+            ]
+        },
+        "51": {
+            "nama": "Nusa Tenggara barat",
+            "pertambangan": [
+                {
+                    "nama": "Perak",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "tembaga",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "mangan",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "pasir besi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "timbal",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "jagung",
+                "kedelai",
+                "padi"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "industri produk makanan olahan berbasis sapi, jagung, rumput laut dan ikan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri kerajinan tangan rakyat",
+                    "tempat": ""
+                }
+            ]
+        },
+        "53": {
+            "nama": "Nusa Tenggara Timur",
+            "pertambangan": [
+                {
+                    "nama": "Perak",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Mutiara",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "jambu mente",
+                "kapas",
+                "cengkeh",
+                "cokelat",
+                "tembakau",
+                "tebu",
+                "pisang"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "industri kecil dan kerajinan tangan rakyat",
+                    "tempat": ""
+                }
+            ]
+        },
+        "61": {
+            "nama": "Kalimantan Barat",
+            "pertambangan": [
+                {
+                    "nama": "Bauksit",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Batu Bara",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "jagung",
+                "kedelai",
+                "karet",
+                "kelapa sawit",
+                "kelapa",
+                "lidah buaya"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "industri Makanan dan Minuman",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri Kayu dan Barang-Barang dari Kayu (tidak termasuk furniture) dan Barang-Barang Anyaman",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri logam dasar",
+                    "tempat": ""
+                }
+            ]
+        },
+        "62": {
+            "nama": "Kalimantan Tengah",
+            "pertambangan": [
+                {
+                    "nama": "Emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Batu Bara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Zirkon",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Besi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "tembaga",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "kaolin",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batu permata",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "karet",
+                "coklat",
+                "jeruk",
+                "kopi",
+                "kelapa sawit",
+                "jambu mente"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "industri Pengolahan Kayu",
+                    "tempat": ""
+                }
+            ]
+        },
+        "63": {
+            "nama": "Kalimantan Selatan",
+            "pertambangan": [
+                {
+                    "nama": "minyak bumi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Batu Bara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "intan",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "kaolin",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "marmer",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batu-batuan",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "kelapa sawit",
+                "jagung",
+                "ubi kayu",
+                "ubi jalar",
+                "jeruk",
+                "pepaya",
+                "pisang",
+                "durian",
+                "rambutan",
+                "kasturi",
+                "langsat"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "industri kerajinan rakyat",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri hasil hutan dan anyam-anyaman dari rotan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri batik",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri perhiasan intan",
+                    "tempat": ""
+                }
+            ]
+        },
+        "64": {
+            "nama": "Kalimantan Timur",
+            "pertambangan": [
+                {
+                    "nama": "minyak bumi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Batu Bara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "Gas Alam",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "kelapa sawit",
+                "lada",
+                "cengkeh",
+                "kopi",
+                "karet"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "industri migas",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri kayu lapis",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri kimia",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri pupuk",
+                    "tempat": ""
+                }
+            ]
+        },
+        "71": {
+            "nama": "Sulawesi Utara",
+            "pertambangan": [
+                {
+                    "nama": "emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "tembaga",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "kelapa",
+                "pala",
+                "cengkeh",
+                "kopi",
+                "vanilla"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Industri Makanan Olahan Dari Kelapa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Pengalengan Ikan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Budidaya Nanas",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Listrik",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Pengolahan Ikan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Budidaya Kentang",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Rumput Laut",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Minyak Kelapa Murni",
+                    "tempat": ""
+                }
+            ]
+        },
+        "72": {
+            "nama": "Sulawesi Tengah",
+            "pertambangan": [
+                {
+                    "nama": "emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "tembaga",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "minyak bumi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "gas bumi",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batubara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "nikel",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "molibdenum",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "chronit",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "belerang",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "kakao",
+                "cengkeh",
+                "kelapa"
+            ],
+            "perindustrian": [
+                {
+                    "nama": " Industri pengolahan kelapadan kakao",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri pengolahan daging",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri pengolahan susu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri barang-barang jadi dari kulit",
+                    "tempat": ""
+                },
+                {
+                    "nama": "industri pengolahan kayu dan pengolahan rotan",
+                    "tempat": ""
+                }
+            ]
+        },
+        "73": {
+            "nama": "Sulawesi Selatan",
+            "pertambangan": [
+                {
+                    "nama": "batu gamping",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "tanah liat",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "nikel",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "pasir",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "marmer",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "jagung",
+                "ubi kayu",
+                "ubi jalar",
+                "kacang-kacangan"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Industry pengolahan kelapa, kelapa sawit, tembakau dan pengolahan minyak atsiri",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pengolahan daging dan susu",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pengolahan kayu dan rotan (meubel dan anyaman rotan)",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pengolahan hasil tambang logam",
+                    "tempat": ""
+                }
+            ]
+        },
+        "74": {
+            "nama": "Sulawesi Tenggara",
+            "pertambangan": [
+                {
+                    "nama": "aspal",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "nikel",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batu setengah permata",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "marmer",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "onix",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batu gamping",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "tanah liat",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "kakao",
+                "kacang mede",
+                "kelapa",
+                "cengkeh",
+                "kopi",
+                "pinang",
+                "lada",
+                "vanili"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Pabrik ferronickel",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pengolahan ikan kaleng, abon, kerupuk dan tepung ikan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pengolahan rotan (meubel dan anyaman rotan)",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri meubel batang kelapa dan minyak kelapa",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pembuatan kapal penangkap ikan.",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri marmer.",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pengolahan kakao, meises, bubuk dan makanan dari coklat.",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pengolahan biji mete, mete kupas dan goreng.",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri minyak kulit mete.",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pengolahan ubi kayu dan tapioca.",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri pakan ternak dari jagung",
+                    "tempat": ""
+                }
+            ]
+        },
+        "75": {
+            "nama": "Gorontalo",
+            "pertambangan": [
+                {
+                    "nama": "emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "perak",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "tembaga",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batu gamping",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "toseki",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batu granit",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "sirtu",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "zeolit",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "kaolin",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "pasir kuarsa",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "feldspar",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "lempung (clay)",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "padi",
+                "kelapa",
+                "cengkeh",
+                "kemiri",
+                "pala",
+                "cabe",
+                "tomat",
+                "bawang"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Industri Pembekuan dan Pengalengan Ikan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Pengawetan Rotan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Perabot (Meubel Rotan)",
+                    "tempat": ""
+                }
+            ]
+        },
+        "76": {
+            "nama": "Sulawesi Barat",
+            "pertambangan": [
+                {
+                    "nama": "emas",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "batubara",
+                    "lokasi": ""
+                },
+                {
+                    "nama": "minyak bumi",
+                    "lokasi": ""
+                }
+            ],
+            "pertanian": [
+                "kakao",
+                "kopi robusta",
+                "kopi arabika",
+                "kelapa",
+                "cengkeh"
+            ],
+            "perindustrian": [
+                {
+                    "nama": "Industri Pakaian Jadi",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Makanan",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Kayu, Barang dari Kayu dan Gabus",
+                    "tempat": ""
+                },
+                {
+                    "nama": "Industri Rotan",
+                    "tempat": ""
+                }
+            ]
+        }
+    },
+    "81": {
+        "nama": "Maluku",
+        "pertambangan": [
+            {
+                "nama": "emas",
+                "lokasi": ""
+            },
+            {
+                "nama": "mercuri",
+                "lokasi": ""
+            },
+            {
+                "nama": "perak",
+                "lokasi": ""
+            },
+            {
+                "nama": "logam dasar",
+                "lokasi": ""
+            },
+            {
+                "nama": "kuarsa",
+                "lokasi": ""
+            },
+            {
+                "nama": "minyak bumi",
+                "lokasi": ""
+            },
+            {
+                "nama": "mangan",
+                "lokasi": ""
+            }
+        ],
+        "pertanian": [
+            "kelapa",
+            "kapuk",
+            "kakao",
+            "pala",
+            "cengkeh",
+            "karet",
+            "vanili"
+        ],
+        "perindustrian": [
+            {
+                "nama": "Industri Pakaian Jadi",
+                "tempat": ""
+            },
+            {
+                "nama": "Industri Makanan",
+                "tempat": ""
+            },
+            {
+                "nama": "Industri Kayu, Barang dari Kayu dan Gabus",
+                "tempat": ""
+            },
+            {
+                "nama": "Industri Rotan",
+                "tempat": ""
+            }
+        ]
+    },
+    "82": {
+        "nama": "Maluku Utara",
+        "pertambangan": [
+            {
+                "nama": "nikel ore",
+                "lokasi": ""
+            },
+            {
+                "nama": "limonite",
+                "lokasi": ""
+            },
+            {
+                "nama": "tembaga",
+                "lokasi": ""
+            },
+            {
+                "nama": "emas",
+                "lokasi": ""
+            }
+        ],
+        "pertanian": [
+            "bungkil",
+            "pisang segar",
+            "kopra",
+            "pala",
+            "fuli",
+            "kakao",
+            "kayu bular",
+            "rotan"
+        ],
+        "perindustrian": [
+            {
+                "nama": "kilang penggergajian",
+                "tempat": ""
+            },
+            {
+                "nama": "manufaktur kayu lapis",
+                "tempat": ""
+            },
+            {
+                "nama": "perusahaan pertambangan emas dan nikel",
+                "tempat": ""
+            },
+            {
+                "nama": "penggilingan kelapa",
+                "tempat": ""
+            },
+            {
+                "nama": "perkebunan pisang",
+                "tempat": ""
+            },
+            {
+                "nama": "perusahaan perikanan berskala menengah",
+                "tempat": ""
+            }
+        ]
+    },
+    "91": {
+        "nama": "Papua Barat",
+        "pertambangan": [
+            {
+                "nama": "minyak bumi",
+                "lokasi": ""
+            },
+            {
+                "nama": "perak",
+                "lokasi": ""
+            },
+            {
+                "nama": "emas",
+                "lokasi": ""
+            }
+        ],
+        "pertanian": [
+            "coklat",
+            "kopi",
+            "kelapa",
+            "karet",
+            "pala"
+        ],
+        "perindustrian": [
+            {
+                "nama": "Industri Mutiara",
+                "tempat": ""
+            },
+            {
+                "nama": "Industri Rumput laut",
+                "tempat": ""
+            },
+            {
+                "nama": "industri tradisional tenun ikat",
+                "tempat": ""
+            }
+        ]
+    },
+    "92": {
+        "nama": "Papua",
+        "pertambangan": [
+            {
+                "nama": "minya bumi",
+                "lokasi": ""
+            },
+            {
+                "nama": "tembaga",
+                "lokasi": ""
+            },
+            {
+                "nama": "emas",
+                "lokasi": ""
+            }
+        ],
+        "pertanian": [
+            "cengkeh",
+            "coklat",
+            "jambu mente",
+            "kopi",
+            "kelapa",
+            "pala",
+            "ubi kayu"
+        ],
+        "perindustrian": [
+            {
+                "nama": "Industri Makanan dan Minuman",
+                "tempat": ""
+            },
+            {
+                "nama": "Industri Kayu, Barang-Barang dari Kayu (tidak termasuk furnitur), dan Barang-Barang Anyaman",
+                "tempat": ""
+            },
+            {
+                "nama": "Industri Penerbitan, Pencetakan dan Reproduksi Media Rekaman",
+                "tempat": ""
+            },
+            {
+                "nama": "Industri Barang Galian Bukan Logam",
+                "tempat": ""
+            },
+            {
+                "nama": "Industri Furnitur",
+                "tempat": ""
+            }
+        ]
+    }
+}

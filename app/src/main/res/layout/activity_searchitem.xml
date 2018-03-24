@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.develop.filhan.eencyclopediaone.SearchItem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/txtCari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g Soto Medan"
+            android:inputType="textPersonName"
+            />
+        <Button
+            android:id="@+id/btnCari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cari"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblStatusCari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:padding="5dp"/>
+
+    <ListView
+        android:id="@+id/listCari"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>
