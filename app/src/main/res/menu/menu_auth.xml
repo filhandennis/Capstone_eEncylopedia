@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_auth_edit"
+        android:title="Edit Profile" />
+    <item
+        android:id="@+id/menu_auth_becomeseler"
+        android:title="Become a Seller" />
+
+    <item
+        android:id="@+id/menu_auth_logout"
+        android:icon="@drawable/ic_logoff_white_24dp"
+        android:title="Logout"
+        app:showAsAction="always" />
+</menu>

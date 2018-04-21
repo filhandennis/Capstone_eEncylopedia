@@ -1,0 +1,147 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.develop.filhan.eencyclopediaone.AuthFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/blockSigninLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imgDP"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/ic_user_default" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lblAuthNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mercu Buana"
+                    android:textSize="22sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tgl Lahir"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lblAuthTTL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21 Agustus 1997"
+                    android:textSize="22sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Provinsi Domisili"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lblAuthProvinsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jawa Barat"
+                    android:textSize="22sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#dcdcdc"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Display Name"
+                    android:layout_marginTop="8dp"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lblAuthDN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="alpenliebe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:layout_marginTop="8dp"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lblAuthEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="alpenliebe@eclairs.id"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Privilege"
+                    android:layout_marginTop="8dp"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lblAuthRole"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Watcher"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/blockSigninNotLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+                <include layout="@layout/content_signin"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</FrameLayout>

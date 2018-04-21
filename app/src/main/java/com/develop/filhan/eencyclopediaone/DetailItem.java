@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -14,6 +15,7 @@ public class DetailItem extends AppCompatActivity {
 
     private ImageView imgMakanan, imgDaerah;
     private TextView lblJudul, lblDeskripsi, lblDaerah, lblKarakter, lblDidapatkan;
+    private Button btnBecomeItemSeller;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,7 @@ public class DetailItem extends AppCompatActivity {
         lblDaerah=(TextView)findViewById(R.id.DetailItemDaerah);
         lblKarakter=(TextView)findViewById(R.id.DetailItemKarakteristik);
         lblDidapatkan=(TextView)findViewById(R.id.DetailItemDidapatkan);
+        btnBecomeItemSeller=(Button)findViewById(R.id.btnDetailItemBecomeSeller);
 
         Intent ini = getIntent();
         int posId = ini.getIntExtra(EXTRA_POSITION,0);

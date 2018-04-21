@@ -30,8 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Soto Medan"
-            android:textStyle="bold"
-            android:textSize="25sp"
+            android:textSize="22sp"
             />
     </LinearLayout>
     <TextView
@@ -45,14 +44,24 @@
         android:text=""
         />
 
-    <ImageView
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="15dp"-->
+        <!--android:layout_below="@id/RecyclerItemImage"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:src="@drawable/hr01"-->
+        <!--/>-->
+    <View
         android:layout_width="match_parent"
-        android:layout_height="15dp"
-        android:layout_below="@id/RecyclerItemImage"
-        android:layout_centerInParent="true"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/hr01"
-        />
+        android:layout_height="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="8dp"
+        android:paddingBottom="8dp"
+        android:background="#dcdcdc"
+        android:layout_below="@+id/RecyclerItemImage"/>
 
 </RelativeLayout>
