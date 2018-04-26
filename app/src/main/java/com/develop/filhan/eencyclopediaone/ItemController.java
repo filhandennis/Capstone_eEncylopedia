@@ -14,6 +14,8 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 /**
  * Created by ASUS on 24/03/2018.
@@ -41,17 +43,25 @@ public class ItemController {
                 JSONArray makanan = p.getJSONArray("makanan_khas");
                 for(int b=0;b<makanan.length();b++){
                     JSONObject m = makanan.getJSONObject(b);
+                    int id = m.getInt("id");
                     String nama = m.getString("nama");
                     String deskripsi = m.getString("deskripsi");
-
                     //Log.d("ItemController->Item","a:"+a+",b:"+b+",Nama:"+nama);
-
-                    list.add(new MenuModel(nama, daerah, deskripsi, ""));
+                    MenuModel item = new MenuModel(nama, daerah, deskripsi, "");
+                    item.setId(id);
+                    list.add(item);
                 }
             }
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
+        Collections.sort(list, new Comparator<MenuModel>() {
+            @Override
+            public int compare(MenuModel m1, MenuModel m2) {
+                return m1.getJudul().compareTo(m2.getJudul());
+            }
+        });
 
         return list;
     }
@@ -67,12 +77,12 @@ public class ItemController {
                 list.add(item);
             }
         }
-        return list;
+        return sortByName(list,true);
     }
 
     public ArrayList<MenuModel> findItemByNama(String nama){
         ArrayList<MenuModel> list = new ArrayList<>();
-        if(nama.length()<3){return null;}
+        if(nama.length()<1){return null;}
         //Log.d("FINDING","x:"+nama);
         for(MenuModel item: selectAll()){
             //Log.d("SCANNING "+item.getJudul(),""+item.getJudul().contains(nama));
@@ -81,6 +91,26 @@ public class ItemController {
                 //Log.d("FINDED","x:"+item.getJudul());
             }
         }
+        return list;
+    }
+
+    public ArrayList<MenuModel> sortByName(ArrayList<MenuModel> list, boolean asc){
+        Collections.sort(list, new Comparator<MenuModel>() {
+            @Override
+            public int compare(MenuModel m1, MenuModel m2) {
+                return m1.getJudul().compareTo(m2.getJudul());
+            }
+        });
+        return list;
+    }
+
+    public ArrayList<MenuModel> sortByDaerah(ArrayList<MenuModel> list, boolean asc){
+        Collections.sort(list, new Comparator<MenuModel>() {
+            @Override
+            public int compare(MenuModel m1, MenuModel m2) {
+                return m1.getDaerah().compareTo(m2.getDaerah());
+            }
+        });
         return list;
     }
 

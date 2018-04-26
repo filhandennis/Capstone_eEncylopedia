@@ -2,6 +2,7 @@
 	"provinsi":
 	[
 		{
+			"id" : 11,
 			"nama": "Aceh",
 			"objek_pariwisata":
 			[
@@ -54,26 +55,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 110001,
 					"nama" : "Timphan",
 					"deskripsi" : "sejenis penganan kecil yang aslinya berasal dari Aceh. Bahan untuk membuat timpan terdiri dari tepung, pisang, dan santan. Pisang yang dipakai adalah pisang wak. ",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 110002,
 					"nama" : "Gulee Itek",
 					"deskripsi" : "gulai bebek khas dari Aceh. Gulai ini berbahan dasar bebek kampung yang diolah sedemikian rupa sehingga empuk dengan racikan bumbu khas aceh yang rumit dan komplit sehingga menghasilkan cita rasa yang berbeda.",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 110003,
 					"nama" : "Kuwah Pli'u",
 					"deskripsi" : "makanan khas Aceh yang berbahan dasar ampas dari sisa perasan minyak kelapa tua. Bahan utama makanan ini adalah bungkil kelapa yang diparut, daun dan buah melinjo serta chu (sejenis siput yang hidup di sungai), kacang panjang, pepaya muda dan nangka muda dan Asam sunti (belimbing wuluh yang dikeringkan setelah dikukus bersama garam) ditambahkan pula sebagai bumbu khasnya.",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 110004,
 					"nama" : "Keumamah",
 					"deskripsi" : "masakan khas Aceh yang dibuat dari bahan bakuikan. Ikan yang digunakan biasanya adalah ikan tongkol yang dikeringkan dengan cara dijemur, lalu direbus dan kemudian disalai. Ikan kering ini diiris tipis - tipis dan dimasak dengan kentang dalam kuah kari yang kental. Bumbu-bumbu lain yang digunakan antara lain asam sunti, salam koja, cabai rawit dan cabai hijau",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 110005,
 					"nama" : "Mie Aceh",
 					"deskripsi" :"masakan mie pedas khas Aceh di Indonesia. Mie kuning tebal dengan irisan daging sapi, daging kambing atau makanan laut (udang dan cumi) disajikan dalam sup sejenis kari yang gurih dan pedas. Biasanya ditaburi bawang goreng dan disajikan bersama emping, potongan bawang merah, mentimun, dan jeruk nipis.",
 					"gambar" : "5.jpg"
@@ -82,6 +88,7 @@
 		},
 
 		{
+			"id" : 12,
 			"nama": "Sumatera Utara",
 			"objek_pariwisata":
 			[
@@ -110,26 +117,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 120001,
 					"nama" : "Saksang",
 					"deskripsi": "masakan khas dari tanah Batak yang terbuat dari daging babi (atau daging anjing) yang dicincang dan dimasak dengan menggunakan darah,santan dan rempah-rempah (termasuk jeruk purut dan daun salam, ketumbar, bawang merah, bawang putih, cabai, merica, serai, jahe, lengkuas, kunyit dan andaliman).Saksang menjadi makanan wajib dalam adat pernikahan Batak.",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 120002,
 					"nama" : "Bika Ambon",
 					"deskripsi" : "Bika ambon dikenal sebagai oleh-oleh khas Kota Medan, Sumatera Utara. erbuat dari bahan-bahan seperti telur, gula, dan santan, bika ambon umumnya dijual dengan rasa pandan, meskipun kini juga tersedia rasa-rasa lainnya seperti durian, keju, dan cokelat.",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 120003,
 					"nama" : "Soto Medan",
 					"deskripsi" : "Soto asal kota Medan menggunakan santan sebagai bahan cairnya, Untuk isinya soto Medan memakai daging ayam, telur rebus, kentang, emping, tomat dan taburan bawang goreng",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 120004,
 					"nama" : "Lemang",
 					"deskripsi" : "makanan dari beras ketan yang dimasak dalam seruas bambu, setelah sebelumnya digulung dengan selembar daun pisang. Gulungan daun bambu berisi tepung beras dicampur santan kelapa ini kemudian dimasukkan ke dalam seruas bambu lalu dibakar sampai matang.",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 120005,
 					"nama" : "Arsik",
 					"deskripsi" : "salah satu masakan khas kawasan Tapanuli yang populer. Masakan ini dikenal pula sebagai ikan mas bumbu kuning. Ikan mas adalah bahan utama, yang dalam penyiapannya tidak dibuang sisiknya.Bumbu, seperti andaliman dan asam cikala (buah kecombrang), selain lengkuas dan serai. Bumbu-bumbu yang dihaluskan dilumuri pada tubuh ikan beberapa saat. Ikan kemudian dimasak dengan sedikit minyak dan api kecil hingga agak mengering.",
 					"gambar" : "5.jpg"
@@ -138,6 +150,7 @@
 		},
 
 		{
+			"id" : 13,
 			"nama": "Sumatera Barat",
 			"objek_pariwisata":
 			[ 
@@ -174,26 +187,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 130001,
 					"nama" : "Rendang",
 					"deskripsi" : "salah satu masakan tradisional Minangkabau yang menggunakan daging dan santankelapa sebagai bahan utama dengan kandungan bumburempah-rempah yang kaya. ",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 130002,
 					"nama" : "Sate Padang",
 					"deskripsi" : "Sate Padang memakai bahan daging sapi, lidah, atau jerohan (jantung, usus, dan tetelan) dengan bumbu kuah kacang kental (mirip bubur) ditambah cabai yang banyak sehingga rasanya pedas.",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 130003,
 					"nama" : "Dendeng Balado",
 					"deskripsi" : "masakan khas Sumatera Barat dibuat dari irisan tipis dan lebar daging sapi yang dikeringkan lalu digoreng kering.Daging goreng ini lalu diberi bumbu balado.",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 130004,
 					"nama" : "Nasi Kapau",
 					"deskripsi" : "nasi ramas khas nagari Kapau, Sumatera Barat, terdiri dari nasi, sambal, dan lauk pauk khas Kapau, gulai sayur nangka (cubadak), gulai tunjang (urat kaki kerbau atau sapi), gulai cangcang (tulang dan daging kerbau), gulai babek (paruik kabau).",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 130005,
 					"nama" : "Bubur Kampiun",
 					"deskripsi" : "yang terdiri dari: Kolak Pisang, Kolak Ubi, Bubur Sumsum, Bubur Candil, Bubur Delima, Bubur Ketan Hitam, Ketan Putih, dan Srikaya.",
 					"gambar" : "5.jpg"
@@ -202,6 +220,7 @@
 		},
 
 		{
+			"id" : 14,
 			"nama": "Riau",
 			"objek_pariwisata":
 			[
@@ -234,26 +253,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 140001,
 					"nama" : "Lempuk Durian",
 					"deskripsi" : "lebih dikenal dengan sebutan dodol durian merupakan oleh-oleh khas Kabupaten Bengkalis, Riau. Durian yang matang alami, diblender atau digiling, perbandingan durian dan gula pasir sebesar 1:1/4 kg, memerlukan waktu memasak selama enam jam dengan kuali alumunium, dan memasak menggunakan arang kayu. ",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 140002,
 					"nama" : "Kue Jalo",
 					"deskripsi" : "makanan khas kabupaten Kampar. Bengkalis, Siak, Rokan Hilir sebagian Rokan Hulu tetapi perbedaan terdapat dipelengkapnya kalau di kabupaten Kampar pelengkapnya sarikayo , manisan dan kuah yang digunakan untuk kolak. Sedangkan untuk Bengkalis, Siak, Rokan hilir dan sebagian Rokan hulu pelengkapnya adalah kari daging (pacri nenas). Bahan utamanya adalah tepung terigu bentuknya seperti jalo karena dibentuk dengan adonan yang telah masuk kecetakan berbentuk corong",
 					"gambar" :"2.jpg"
 				},
 				{
+					"id" : 140003,
 					"nama" : "Gulai Belacan",
 					"deskripsi" : "Gulai Belacan berbahan dasar udang yang dicampur dengan bumbu rempah-rempah seperti lada, kemiri, asam jawa, santan kelapa",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 140004,
 					"nama" : "Bolu Kemojo",
 					"deskripsi" : "panganan khas Melayu dari Riau. Kue ini sering disajikan pada hajatan, buka puasa, atau perayaan-perayaan hari besar seperti lebaran. Pada umumnya kue ini berwarna hijau coklat",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 140005,
 					"nama" : "Sambal Terong Asam",
 					"deskripsi" : "Masakan Khas Riau yang selalu menjadi hidangan aksesori bagi orang-orang Melayu di Riau, khususnya Melayu kepulauan dan-orang Melayu pantai Timur Sumatra.",
 					"gambar" : "5.jpg"
@@ -262,6 +286,7 @@
 		},
 
 		{
+			"id" : 15,
 			"nama": "Jambi",
 			"objek_pariwisata":
 			[
@@ -298,26 +323,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 150001,
 					"nama" : "Gulai Ikan Patin ",
 					"deskripsi" : "masakan yang populer di masyarakat Jambi.Gulai ini dimasak dengan menggunakan tempoyak yaitu daging buah durian yang telah difermentasi. Tetapi ada sebagian orang yang memilih untuk mengganti tempoyak dengan santan kelapa untuk menghindari bau dan rasa tempoyak yang cukup menyengat. Selain tempoyak bumbu lain yang digunakan dalam pembuatan Gulai Ikan Patin ini adalah cabe merah, lengkuas, serai, kunyit, bawang merah dan bawang putih.",
 					"gambar" : "G1.jpg"
 				},
 				{
+					"id" : 150002,
 					"nama" : "Burgo",
 					"deskripsi" : "Kuliner ini terbuat dari campuran tepung beras dan sagu tani. Bentuk kue jajanan Jambi ini cukup menarik, seperti dadar gulung. Kuliner Jambi ini bertekstur kenyal dan gurih. Untuk menyajikannya, potong adonan menjadi beberapa bagian lalu siram dengan kuah santan dan bawang goreng. Kuah santan ini terbuat dari kaldu ikan dan udang.",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 150003,
 					"nama" : "Dodol Kentang Kerinci",
 					"deskripsi" : "Cemilan ini biasa dibeli sebagai oleh-oleh khas Jambi. Kuliner ini terbuat dari kentang yang berasal dari kawasan Pegunungan Kerinci dan berkualitas baik. Rasanya sangat manis dan gurih. Kuliner ini tersedia dalam beberapa rasa yang bisa Anda pilih sesuai selera yaitu, rasa pandan, durian, gula aren, nanas dan strawberry.",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 150004,
 					"nama" : "Kue Gandus",
 					"deskripsi" : "Kue Gandus terbuat dari tepung beras, santan dan sagu. Cara pembuatan kue ini dengan mencampurkan adonan tepung dengan bumbu bawang putih dan cabe lalu disetak bulat. Untuk menambah rasa yang lezat, kuliner ini ditaburi ebi, ayam, daging giling dan abon ikan sebagai pelengkap.",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 150005,
 					"nama" : "Gulai Tepek Ikan ",
 					"deskripsi" : "kuliner khas Jambi yang mirip dengan pempek Palembang namun yang berbeda adalah adonan Tepek-nya yang ditambah kuah Gulai dan nanas. Untuk membuat bahan tepek ikannya, anda perlu menyiapkan ikan gabus giling, tepung sagu, bawang putih, garam dan air secukupnya. Lalu haluskan bawang putih dan garam, kemudian campur dengan ikan gabus giling dan tepung sagu. Lalu uleni hingga adonan bisa dibentuk bulat memanjang.",
 					"gambar" : "5.jpg"
@@ -326,6 +356,7 @@
 		},
 
 		{
+			"id" : 16,
 			"nama": "Sumatera Selatan",
 			"objek_pariwisata":
 			[
@@ -354,26 +385,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 160001,
 					"nama" : "Pempek",
 					"deskripsi" : "makanan khas Palembang yang terbuat dari ikan dan sagu. Penyajian pempek ditemani oleh saus berwarna hitam kecoklat-coklatan yang disebut cuka atau cuko (bahasa Palembang). Cuko dibuat dari air yang dididihkan, kemudian ditambah gula merah, udang ebi dan cabe rawit tumbuk, bawang putih, dan garam",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 160002,
 					"nama" : "Celimpungan",
 					"deskripsi" : "makanan yang berasal dari Sumatera Selatan. Bahan dasar celimpungan adalah adonan sagu dan ikan seperti halnya pempek. Perbedaan di antara keduanya terletak pada bentuk dan kuahnya. Celimpungan berbentuk bulat dengan diameter 10 cm dan tipis (pipih). Kuahnya terbuat dari santan dan racikan bumbu-bumbu lainnya. Celimpungan dimakan bersama sambal gorengnya.",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 160003,
 					"nama" : "Tekwan",
 					"deskripsi" : "hidangan sup khas Palembang yang terbuat dari ikan dan sagu yang dibuat dalam ukuran kecil-kecil, dan disajikan dengan menggunakan kuahudang dengan rasa yang khas. Biasanya pelengkap tekwan adalah bihun, irisan bengkoang dan jamur, serta ditaburi irisan daun bawang, seledri, dan bawang goreng. ",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 160004,
 					"nama" : "Kumbu",
 					"deskripsi" : "makanan khas Palembang dan biasanya juga dijadikan isi dari bakpia. Makanan ini biasanya terbuat dari campuran kacang hijau dan gula ditambah sedikit garam. Awalnya kumbu hanya terdiri dari dua macam yaitu kumbu hijau dan hitam. Saat ini kumbu sudah bermacam-macam rasa mulai dari cokelat sampai keju. ",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 160004,
 					"nama" : "Laksan",
 					"deskripsi" : "makanan khas Palembang yang terbuat dari bahan bakusagu dan ikan. Laksan dibuat dalam bentuk oval dengan rasa yang hampir pempek, tetapi disajikan dengan menggunakan kuah santan",
 					"gambar" : "5.jpg"
@@ -382,6 +418,7 @@
 		},
 
 		{
+			"id" : 17,
 			"nama": "Bengkulu",
 			"objek_pariwisata":
 			[
@@ -422,26 +459,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 170001,
 					"nama" : "Pendap",
 					"deskripsi" : "makanan khas Bengkulu. Pendap terbuat dari bumbu-bumbu yang beraneka ragam, seperti bawang putih, kencur, dan cabai giling. Lalu, bahan-bahan itu dicampur merata dengan parutan kelapa muda. Selanjutnya dibungkus dengan daun talas, dimasukkan sepotong ikan, lalu direbus selama 8 jam. Jenis ikan yang digunakan seperti kakap, gemuru, dan terusan.",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 170002,
 					"nama" : "Gulai Kemba'ang",
 					"deskripsi" : "masakan ini lebih dikenal masyarakat di wilayah Kabupaten Mukomuko, karena banyak versi mengatakan bahwa gulai kemba’ang berasal dari daerah itu. Gulai kemba’ang ini terbuat dari  iga sapi dan racikan beberapa jenis bumbu dan memiliki rasa yang gurih.",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 170003,
 					"nama" : "Tempoyak",
 					"deskripsi" : "makanan sensasional ini juga merupakan hasil fermentasi dari buah durian, rasanya yang sedikit asam manis ini tentunya membuat lidah orang ketagihan, apalagi di tambah ikan atau udang membuat cita rasa dari makanan sejenis pasta ini makin lezat.",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 170001,
 					"nama" : "Bagar Hiu",
 					"deskripsi" : "Bagar Hiu terbuat dari bahan daging ikan Hiu, ketumbar bulat, pala, cengkeh, kayu manis, asam jawa, lengkuas, cabai, bawang putih dan merah serta kelapa goreng yang bergungsi untuk mengentalkan masakan Bagar Hiu.",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 170004,
 					"nama" : "Kue Tat",
 					"deskripsi" : "Kue Tat  terbuat dari campuran tepung gandum, gula pasir, telur ayam dan mentega. Dalam pembuatan kue ini biasanya ada yang berukuran besar dan ukuran kecil, yang besar berbentuk segi empat dan diatasnya dihiasi dengan parutan nenas ataupun kelapa dicampur gula merah yang bertujuan mempermanis penampilan dan menambah kenikmatan rasanya",
 					"gambar" : "5.jpg"
@@ -450,6 +492,7 @@
 		},
 
 		{
+			"id" : 18,
 			"nama": "Lampung",
 			"objek_pariwisata":
 			[
@@ -474,26 +517,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 180001,
 					"nama" : "Seruwit",
 					"deskripsi" : "makanan khas Lampung berbahan dasar sambel terasi yang dicampur berbagai macam lauk. Seruwit biasanya dicampur dengan tempoyak atau lauk lain seperti ikan goring, ikan bakar, terung rebus, timun, tahu, atau tempe. Seruwit disajikan sebagai lauk dengan nasi oleh masyarakat Lmapung karena sudah mengandung banyak lauk.",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 180002,
 					"nama" : "Gulai Balak",
 					"deskripsi" : "makanan khas Lampung yang terbuat dari daging kambing atau sapi yang dimasak dengan santan dan rempah-rempah khas Lampung, semacam gulai kambing",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 180003,
 					"nama" : "Gulai Taboh",
 					"deskripsi" : "kuliner khas Lampung yang juga dapat diartikan sebagai gulai santan. Gulai ini biasanya berisi khattak atau kacang kacangan seperti kacang/khattak gelinyor, kacang merah/khattak ngisi, kacang panjang/khattak kejung, khattak tuwoh, rebung, kentang dan lain lain",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 180004,
 					"nama" : "Sekubal",
 					"deskripsi" : "berbahan dari ketan yang dikukus dengan santan, lalu dibungkus daun pisang, atau daun kelapa (janur). Menyantap makanan ini biasanya ditemani gulai ayam, rendang daging, opor ayam, kare dan lain-lain. Selain itu, makanan ",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 180005,
 					"nama" : "Pindang Ikan ",
 					"deskripsi" : "salah satu makanan khas Lampung yang paling banyak dicari oleh pecinta kuliner. Aroma kuliner ini dijamin lebih harum dengan kehadiran daun kemangi yang dicampurkan ke dalam kuah. Masakan ini juga memiliki rasa asam-gurih sehingga mirip dengan masakan Tom Yam dari Thailand.",
 					"gambar" : "5.jpg"
@@ -502,6 +550,7 @@
 		},
 
 		{
+			"id" : 19,
 			"nama": "Kepulauan Bangka Belitung",
 			"objek_pariwisata":
 			[
@@ -542,26 +591,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 190001,
 					"nama" : "Lempah kuning",
 					"deskripsi" : "masakan lempah yang isinya terdiri dari ikan kakap merah atau tenggiri dengan kuah yang berbumbu kunyit, cabai merah, bawang merah, bawang putih, lengkuas dan belacan. Lempah ini memiliki kuah berwarna kuning dan biasanya dimasukkan potongan-potongan nanas sehingga disebut juga lempah nanas. Orang Belitung menyebutnya gangan ketarap. Ikan kakap dapat pula digantikan dengan daging sapi. ",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 190002,
 					"nama" : "Song Sui",
 					"deskripsi" : "kuliner khas bangka belitung yang dimasak dengan menggunakan daging Babi beserta jeroan babi dicampuri dengan ANG CIU / Arak Anggur Merah.",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 190003,
 					"nama" : "Rusip",
 					"deskripsi" : "salah satu dari sekian banyak makanan tradisional masyarakat Bangka.  Rusip terbuat dari ikan yang telah difermentasikan dan digunakan sebagai pengganti sambal untuk lalapan daun singkong, mentimum, dan sebagainya. ",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 190004,
 					"nama" : "Calok",
 					"deskripsi" : "terbuat dari udang kecil yang masih segar yang disebut dengan udang cencalo/rebon. Proses pembuatannya udang dicuci bersih terlebih dulu dan dicampur dengan garam sebagai pengawet agar tahan lebih lama. ",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 190005,
 					"nama" : "Belacan",
 					"deskripsi" : "jenis pasta ikan atau udang fermentasi yang dipadatkan dan memiliki bau khas yang agak menusuk. Belacan dijadikan bumbu untuk banyak masakan lain",
 					"gambar" : "5.jpg"
@@ -570,6 +624,7 @@
 		},
 
 		{
+			"id" : 21,
 			"nama": "Kepulauan Riau",
 			"objek_pariwisata":
 			[
@@ -606,26 +661,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 210001,
 					"nama" : "Siput Gonggong",
 					"deskripsi" : "makanan yang hanya bisa anda temukan di seputar perairan kepulauan riau. Berbentuk siput dan cara penyajiannya cukup direbus air sampai matang dan dicocol sambal kacang. ",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 210002,
 					"nama" : "Mie Lendir",
 					"deskripsi" : "makanan khas Kepulauan Riau. Makanan ini terdiri dari mie kuning yang direbus bersama taoge, dan dimakan bersama sebutir telur rebus yang dibelah dua atau diiris. Mie ini kemudian disiram dengan kuah kacang yang kental. ",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 210003,
 					"nama" : "Otak-otak",
 					"deskripsi" : "salah satu makanan khas di Kep.Riau, baik di Batam, Tanjung Pinang, maupun di Pulau Penyengat. Otak-otak dapat dibuat dari ikan atau cumi-cumi. Dibungkus dengan daun kelapa lalu dibakar.",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 210004,
 					"nama" : "Roti jala",
 					"deskripsi" : "salah satu kuliner khas melayu yang banyak dijual saat Ramadan. Makanan tersebut merupakan kuliner khas Tanjungpinang kepulauan riau.",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 210005,
 					"nama" : "Sup Ikan Batam",
 					"deskripsi" : "dihidangkan dengan potongan ikan tenggiri yang sebelumnya telah dipisahkan dari tulang-tulangnya. Potongan ikan ini dilumuri dengan putih telur untuk menghilangkan bau amis, kemudian dimasak bersama bumbu rempah-rempah dan dicampur dengan belimbing wuluh dan tomat hijau. Potongan sawi putih ataupun hijau juga turut dimasukkan ke dalam sup.",
 					"gambar" : "5.jpg"
@@ -634,6 +694,7 @@
 		},
 
 		{
+			"id" : 31,
 			"nama": "Daerah Khusus Ibukota Jakarta",
 			"objek_pariwisata":
 			[
@@ -666,26 +727,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 310001,
 					"nama" : "Kerak telor",
 					"deskripsi" : "makanan asli daerah Jakarta (Betawi), dengan bahan-bahan beras ketan putih, telurayam, ebi (udang kering yang diasinkan) yang disangrai kering ditambah bawang merah goreng, lalu diberi bumbu yang dihaluskan berupa kelapa sangrai, cabai merah, kencur, jahe, merica butiran, garam dan gula pasir.",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 310002,
 					"nama" : "Soto Betawi",
 					"deskripsi" : "soto yang populer di daerah Jakarta. Seperti halnya Soto Madura dan soto sulung, Soto Betawi juga menggunakan jerohan. Selain jerohan, seringkali organ-organ lain juga disertakan, seperti mata, penis, dan juga hati.",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 310003,
 					"nama" : "Kue ape atau serabi Jakarta",
 					"deskripsi" : "merupakan jajanan khas dari Jakarta. Bentuknya menyerupai pancake. Karena bentuknya, orang juga menyebutnya sebagai kue tetek. Kue yang biasa dijajakan di jalan atau di depan sekolah ini dibuat dari tepung terigu yang dicampur dengan susu. Saat ini dijual dengan berbagai variasi warna dan taburan di atasnya (keju atau meses).",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 310004,
 					"nama" : "Roti buaya",
 					"deskripsi" : "salah satu kue yang paling khas di jakarta, pasalnya, roti ini adalah salah satu syarat bagi mempelai lelaki dalam pernikahan adat betawi.",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 310005,
 					"nama" : "Bir pletok",
 					"deskripsi" : "minuman penyegar yang dibuat dari campuran beberapa rempah, yaitu jahe, daunpandan wangi, dan serai. Minuman tradisional ini dikenal di kalangan etnis Betawi. Agar warnanya lebih menarik, orang Betawi biasanya menggunakan tambahan kayusecang, yang akan memberikan warna merah bila diseduh dengan air panas.Walaupun mengandung kata bir, bir pletok tidak mengandung alkohol. ",
 					"gambar" : "5.jpg"
@@ -694,6 +760,7 @@
 		},
 
 		{
+			"id" : 32,
 			"nama": "Jawa Barat",
 			"objek_pariwisata":
 			[
@@ -734,26 +801,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 320001,
 					"nama" : "Batagor",
 					"deskripsi" : "makanan dari daerah Sunda yang sudah menyebar hampir ke seluruh Indonesia. Makanan ini dibuat dari tahu yang berisi bakso dan dibungkus dengan tepung lalu digoreng, disajikan dengan sambal kacang",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 320002,
 					"nama" : "Cireng",
 					"deskripsi" : "makanan ringan yang berasal dari daerah Sunda yang dibuat dengan cara menggoreng campuran adonan yang berbahan utama tepung kanji atau tapioka. Bahan makanan ini antara lain terdiri dari tepung kanji, tepung terigu, air, merica bubuk, garam, bawang putih, kedelai, daun bawang dan minyak goreng.",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 320003,
 					"nama" : "Combro",
 					"deskripsi" : "Terbuat dari parutan singkong yang bagian dalamnya diisi dengan sambal oncom kemudian digoreng, karena itulah dinamai combro yang merupakan kependekan dari oncom di jero (bahasa Sunda, artinya: oncom di dalam). Bentuknya bulat lonjong. Makanan ini enak disantap saat hangat.",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 320004,
 					"nama" : "Misro",
 					"deskripsi" : "makanan khas dari Jawa Barat yang terbuat dari parutan singkong yang bagian dalamnya diisi dengan gula merah kemudian digoreng, karena itulah dinamai Misro yang merupakan kependekan dari amis di jero (bahasa Sunda, artinya: manis di dalam). Bentuknya bulat dan makanan ini enak disantap saat hangat",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 320005,
 					"nama" : "Opak",
 					"deskripsi" : "makanan khas Sunda daerah Jawa Barat yang terbuat dari tepung beras. Nutrisi yang terkandung dalam opak adalah karbohidrat. Bahan dasar pembuatan opak adalah tepung beras, garam, gula, dan bumbu bumbu penyedap lainnya. Kemudian bahan dasar dicampur menjadi sebuah adonan. Adonan kemudian dikeringkan. Setelah kering kemudian dipanggang di atas bara api.",
 					"gambar" : "5.jpg"
@@ -762,6 +834,7 @@
 		},
 
 		{
+			"id" : 33,
 			"nama": "Jawa Tengah",
 			"objek_pariwisata":
 			[
@@ -790,26 +863,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 330001,
 					"nama" : "Lumpia",
 					"deskripsi" : "cemilan khas Semarang, isinya terdiri dari bambu muda(rebung) pilihan yang renyah, udang segar & telur. Bambu muda yang kami gunakan adalah bambu muda pilihan yang kami datangkan langsung dari Semarang, agar cita rasa yang khas Semarang tetap kami pertahankan. Udang segar , telur, bawang kami tambahkan ke bambu muda beserta racikan bumbu-bumbu kami untuk menghasilkan lumpia yang terbaik.",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 330002,
 					"nama" : "Bandeng presto",
 					"deskripsi" : "makanan khas Indonesia yang berasal dari daerah Pati dan Semarang, Jawa Tengah. Makanan ini dibuat dari ikan bandeng (Chanos chanos) yang dibumbui dengan bawang putih, kunyit dan garam. Ikan bandeng ini kemudian dimasak pada alas daun pisang dengan cara presto. ",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 330003,
 					"nama" : "Garang Asem",
 					"deskripsi" : "masakan tradisional yang saat ini jarang ditemukan. Masakan tradisional ini berasal dari Propinsi Jawa Tengah. Beberapa kota di propinsi Jawa Tengah memiliki masakan tradisional ini. Antara lain Demak, Kudus[1], Pati, dan Pekalongan",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 330004,
 					"nama" : "Dawet ayu ",
 					"deskripsi" : "minuman khas Banjarnegara yang sekilas mirip dengan es cendol. Segelas dawet ayu memang terdiri dari cendol, santan dan gula. Cendol dawet ayu memiliki tekstur lebih kenyal dari cendol lain.",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 330005,
 					"nama" : "Nasi liwet",
 					"deskripsi" : "makanan khas kota Solo. Nasi liwet adalah nasi gurih (dimasak dengan kelapa) mirip nasi uduk, yang disajikan dengan sayur labu siam, suwiran ayam (daging ayam dipotong kecil-kecil) dan areh (semacam bubur gurih dari kelapa).",
 					"gambar" : "5.jpg"
@@ -818,6 +896,7 @@
 		},
 
 		{
+			"id" : 34,
 			"nama": "Daerah Istimewa Yogyakarta",
 			"objek_pariwisata":
 			[
@@ -850,26 +929,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 340001,
 					"nama" : "Gudeg",
 					"deskripsi" : "makanan khas Yogyakarta dan Jawa Tengah yang terbuat dari nangka muda yang dimasak dengan santan. Perlu waktu berjam-jam untuk membuat masakan ini. Warna coklat biasanya dihasilkan oleh daun jati yang dimasak bersamaan. Gudeg dimakan dengan nasi dan disajikan dengan kuah santan kental (areh), ayam kampung, telur, tahu dan sambal goreng krecek. ",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 340002,
 					"nama" : "Bakpia",
 					"deskripsi" : "Bakpia adalah makanan yang terbuat dari campuran kacang hijau dengan gula, yang dibungkus dengan tepung, lalu dipanggang. ",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 340003,
 					"nama" : "Gaplek",
 					"deskripsi" : "bahan makanan yang diolah dari umbi ketela pohon atau singkong. Prosesnya sangat mudah; umbi singkong yang telah dipanen kemudian dikupas dan dikeringkan. Gaplek yang telah kering kemudian bisa ditumbuk sebagai tepung tapioka yang bisa dibuat bermacam-macam kue. Tepung tapioka dari gaplek selanjutnya bisa dibuat menjadi nasitiwul yang gurih. ",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 340004,
 					"nama" : "Jadah tempe",
 					"deskripsi" : "salah satu makanan khas yang berada di Yogyakarta. Makanan ini sangat terkenal dan hanya ada di sekitar tempat wisata Kaliurang yang berada di lereng Gunung Merapi. Jadah tempe ini bentuknya sederhana karena hanya berupa olahan ketan yang dilengkapi dengan tempe atau tahu yang diolah dengan cara dibacem. ",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 340005,
 					"nama" : "Wedang uwuh",
 					"deskripsi" : "minuman penyegar (tonikum) yang berasal dari kawasan Yogyakarta selatan (Kabupaten Bantul), Wedang uwuh disajikan panas/hangat, memiliki rasa manis yang berasal dari gula dan rasa pedas yang berasal dari rempah-rempah (terutama jahe) yang menyertainya. Warna cairannya merah cerah, berasal dari serutan kayu secang dan aroma harum yang ditimbulkan oleh daun kulit manis dan cengkeh",
 					"gambar" : "5.jpg"
@@ -878,6 +962,7 @@
 		},
 
 		{
+			"id" : 35,
 			"nama": "Jawa Timur",
 			"objek_pariwisata":
 			[
@@ -922,26 +1007,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 350001,
 					"nama" : "Rujak cingur",
 					"deskripsi" : "salah satu makanan tradisional yang mudah ditemukan di daerah Jawa Timur, terutama daerah asalnya Surabaya. Terdiridari irisan beberapa jenis buah seperti timun, kerahi (krai, yaitu sejenis timun khas Jawa Timur), bengkuang, mangga muda, nanas, kedondong, kemudian ditambah lontong, tahu, tempe, bendoyo, cingur, serta sayuran seperti kecambah/taoge, kangkung, dan kacang panjang. Semua bahan tadi dicampur dengan saus atau bumbu yang terbuat dari olahan petis udang, airmatang untuk sedikit mengencerkan, gula/gula merah, cabai, kacang tanah yang digoreng, bawang goreng, garam, dan irisan tipis pisang biji hijau yang masih muda (pisang klutuk). Semua saus/bumbu dicampur dengan cara diulek",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 350002,
 					"nama" : "Lontong kupang",
 					"deskripsi" : "makanan khas daerah Jawa Timur. Makanan ini terkenal khususnya di daerah Surabaya, Sidoarjodan Pasuruan. Bahan utama yang digunakan adalah kupang putih (Corbula faba H), yaitu hewan laut semacam kerang bentuknya kecil sebesar antara biji beras dan biji kedelai. Kupang yang telah dikupas dan dimasak, ditambahkan lontong dan lentho, kemudian diberi kuah petis dan sedikit perasan jeruk nipis. Untuk menghidangkan biasanya dipadukan dengan sate kerang, serta minuman air kelapa muda atau degan. ",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 350003,
 					"nama" : "Nasi krawu",
 					"deskripsi" : "makanan khas dari daerah Gresik, Jawa Timur. Cirinya adalah nasinya yang pulen dan disajikan dengan daun pisang. Lauknya dapat berupa sayatan daging sapi, semur daging, jeroan sapi, sambal terasi dan serundeng.",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 350004,
 					"nama" : "Rujak Soto",
 					"deskripsi" : "masakan khas dari daerah Banyuwangi, Jawa Timur. Masakan ini merupakan paduan unik antara rujak cingur dengan soto babat. Biasanya rujak disajikan terlebih dahulu, kemudian disiram dengan kuah soto berikut babatnya. Rasanya juga khas, ada unsur soto sekaligus rasa rujak dengan aroma terasinya. Rujak soto kadang disajikan dengan es temulawak.",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 350005,
 					"nama" : "Pudak",
 					"deskripsi" : "makanan atau kue Kabupaten Gresik, Jawa Timur, Indonesia. Makanan ini terbuat dari bahan tepung beras, gula pasir/gula jawa dan santan kelapa yang dimasukkan kemasan yang disebut 'Ope' yaitu pelepah daun pinang.",
 					"gambar" : "5.jpg"
@@ -950,6 +1040,7 @@
 		},
 
 		{
+			"id" : 36,
 			"nama": "Banten",
 			"objek_pariwisata":
 			[
@@ -982,26 +1073,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 360001,
 					"nama" : "Sate Bandeng",
 					"deskripsi" : "terbuat dari ikan bandeng yang dihancurkan dagingnya tanpa merusak kulit. Setelah lembut daging dikeluarkan lewat mulut, dibuang durinya, diberi bumbu-bumbu, di blender, lalu dimasukan dalam kulit bandeng.",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 360002,
 					"nama" : "Rabeg Banten",
 					"deskripsi" : "daging kerbau yang dipotong kecil-kecil, diberi bumbu dan rasanya pedas sekali. Hampir sama dengan daging rendang ala Minang",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 360003,
 					"nama" : "Kue Jojorong",
 					"deskripsi" : "terbuat dari tepung beras yang dimasak bersama santan. Setelah matang di taruh dalam wadah daun pisang dan dibawahnya diberi gula aren cair (arenga liquid palm sugar). Setelah itu di kukus",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 360004,
 					"nama" : "Nasi sumsum",
 					"deskripsi" : "terbuat dari nasi beras merah dan bumbu yang terbuat dari rempah-rempah yang dicampur dengan sumsum, dan dibungkus daun pisang, kemudian dibakar diatas arang.",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 360005,
 					"nama" : "Kue Gipang",
 					"deskripsi" : "bahan utama untuk membuatnya adalah beras ketan putih atau ketan merah. Setelah dikukus, ketan lalu didinginkan dan dicuci air bersih lalu ketan pun dijemur hingga kering. Kemudian barulah digoreng dan dicampur dengan air gula sehingga teksturnya khas sedikit lengket saat disantap.",
 					"gambar" : "5.jpg"
@@ -1010,6 +1106,7 @@
 		},
 
 		{
+			"id" : 51,
 			"nama": "Bali",
 			"objek_pariwisata":
 			[
@@ -1054,26 +1151,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 510001,
 					"nama" : "Betutu",
 					"deskripsi" : "lauk yang terbuat dari ayam atau bebek yang utuh yang berisi bumbu, kemudian dipanggang dalam apisekam. Betutu ini telah dikenal di seluruh kabupaten di Bali. Salah satu produsen betutu adalah desa Melinggih, kecamatam payangan kabupaten Gianyar. Ayam betutu juga merupakan makanan khas Gilimanuk.",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 510002,
 					"nama" : "Lawar",
 					"deskripsi" : "masakan berupa campuran sayur-sayuran dan daging cincang yang dibumbui yang berasal dari Bali. Makanan ini lazim disajikan dalam rumah tangga di Bali atau dijual secara luas di rumah-rumah makan dengan sebutan lawar Bali. Lawar dibuat dari daging yang dicincang, sayuran, sejumlah bumbu-bumbu dan kelapa. Kadang-kadang di beberapa jenis lawar diberikan unsur yang dapat menambah rasa dari lawar itu yaitu darah dari daging itu sendiri.",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 510003,
 					"nama" : "Sate lilit ",
 					"deskripsi" : "salah satu kuliner Bali yang sangat populer, baik di kalangan masayarakat Bali sendiri maupun di kalangan turis, Di tempat-tempat tertentu ada juga sate lilit berbahan daging ayam dan daging babi, tetapi secara umum kebanyakan sate lilit berbahan dasar ikan laut.",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 510004,
 					"nama" : "Babi guling",
 					"deskripsi" : "sejenis makanan yang terbuat dari anak babibetina atau jantan yang perutnya diisikan dengan bumbu dan sayuran seperti daun ketela pohon dan lalu dipanggang sambil diputar-putar (diguling-gulingkan) sampai matang dengan ditandai dengan perubahan warna kulit menjadi kecoklatan dan renyah.",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 510005,
 					"nama" : "Jejeruk",
 					"deskripsi" : "makanan khas Bali yang terbuat dari jamur tiram. Sajian ini sering dimasak untuk vegetarir. Terbuat dari jamur tiram yang dicampur santan dan parutan kelapa plus bumbu-bumbu rempah lainnya.",
 					"gambar" : "5.jpg"
@@ -1082,6 +1184,7 @@
 		},
 
 		{
+			"id" : 52,
 			"nama": "Nusa Tenggara Barat",
 			"objek_pariwisata":
 			[ 
@@ -1110,26 +1213,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 520001,
 					"nama" : "Ayam Taliwang",
 					"deskripsi" : "makanan khas Lombok, Nusa Tenggara Barat yang berbahan dasar ayam yang disajikan bersama bumbu-bumbunya berupa cabai merah kering, bawang merah, bawang putih, tomat merah, terasi goreng, kencur, gula Jawa, dan garam. Biasanya disajikan bersama makanan khas Lombok lainnya seperti Plecing kangkung",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 520002,
 					"nama" : "Sate Bulayak",
 					"deskripsi" : "makanan tradisional khas Nusa Tenggara Barat yang terbuat dari daging sapi yang dilumuri dengan bumbu khas Lombok dan disajikan dengan lontong. Bumbu tersebut terdiri dari kacang tanah sangrai tumbuk yang direbus bersama santan serta beberapa bumbu dapur lainnya. Rasa dari bumbu tersebut mirip seperti bumbu kari",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 520003,
 					"nama" : "Plecing kangkung",
 					"deskripsi" : "3masakan khas Indonesia yang berasal dari Lombok. Plecing kangkung terdiri dari kangkung yang direbus dan disajikan dalam keadaan dingin dan segar dengan sambal tomat, yang dibuat dari Cabai rawit, garam, terasi dan tomat, dan kadangkala diberi tetesan jeruk limau. sebagai pendamping Ayam taliwang, plecing kangkung biasanya disajikan dengan tambahan sayuran seperti taoge, kacang panjang, kacang tanah goreng, ataupun urap.",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 520004,
 					"nama" : "Bingka Dolu Gula Merah",
 					"deskripsi" :"salah satu makanan khas NTB. Terbuat dari tepung terigu, santan, telur, dan gula merah. Rasanya manis legit",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 520005,
 					"nama" : "Gecak sape",
 					"deskripsi" : "masakan tradisional yang berbahan dasar tetelan, babat, hati sapi dan limpa. Rasa gurih dari masakan ini sungguh istimewa. Karena selain menggunakan santan masakan ini juga menggunakan kelapa sangrai dan wijen.",
 					"gambar" : "5.jpg"
@@ -1138,6 +1246,7 @@
 		},
 
 		{
+			"id" : 53,
 			"nama": "Nusa Tenggara Timur",
 			"objek_pariwisata":
 			[
@@ -1170,26 +1279,31 @@
 			"makanan_khas":
 			[
 				{
+					"id" : 530001,
 					"nama" : "Se'i",
 					"deskripsi" : "makanan khas Nusa Tenggara Timur yang cukup banyak ditemukan di jalan-jalan. Se'i adalah daging yang dimasak dengan cara diasap, dicampur dengan garam, dan rempah-rempah.",
 					"gambar" : "1.jpg"
 				},
 				{
+					"id" : 530002,
 					"nama" : "Catemak jagung",
 					"deskripsi" : "makanan penutup yang terbuat dari jagung, labu lilin, dan kacang hijau yang dimasak dengan bumbu masak penyedap rasa. Tidak seperti warnanya yang manis seperti kolak, catemak rasanya asin. ",
 					"gambar" : "2.jpg"
 				},
 				{
+					"id" : 530003,
 					"nama" : "Ikan tumis pare",
 					"deskripsi" : "masakan khas Nusa Tenggara Timur yang biasa dihidangkan dalam acara sunatan",
 					"gambar" : "3.jpg"
 				},
 				{
+					"id" : 530004,
 					"nama" : "Kerang masak semboko",
 					"deskripsi" :"masakan berbahan dasar kerang hijau khas Nusa Tenggara Timur yang biasa dihidangkan dalam acara pernikahan",
 					"gambar" : "4.jpg"
 				},
 				{
+					"id" : 530005,
 					"nama" : "Moke",
 					"deskripsi" : "minuman khas orang Flores. Ada moke putih dan hitam. Moke putih adalah nira hasil sadapan dari pohon lontar atau pohon enau",
 					"gambar" : "5.jpg"

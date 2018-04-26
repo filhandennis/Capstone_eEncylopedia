@@ -53,6 +53,14 @@
         <!--android:scaleType="fitXY"-->
         <!--android:src="@drawable/hr01"-->
         <!--/>-->
+    <ImageView
+        android:id="@+id/RecyclerItemInfoIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentRight="true"
+        />
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"

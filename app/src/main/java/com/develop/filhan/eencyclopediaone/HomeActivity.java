@@ -37,11 +37,11 @@ public class HomeActivity extends AppCompatActivity {
                     selectedFragment=encylopedia;
                     break;
 //                case R.id.navigation_search:
-//                    selectedFragment=search;
+//                    selectedFragment=gsearch;
 //                    break;
-//                case R.id.navigation_favorite:
-//                    selectedFragment=fav;
-//                    break;
+                case R.id.navigation_favorite:
+                    selectedFragment=fav;
+                    break;
                 case R.id.navigation_profile:
                     selectedFragment=profile;
                     //fragmentTransaction.replace(R.id.containerHome, fav).commit();

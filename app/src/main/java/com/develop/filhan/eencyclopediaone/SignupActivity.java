@@ -1,6 +1,8 @@
 package com.develop.filhan.eencyclopediaone;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +14,14 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -26,6 +36,11 @@ public class SignupActivity extends AppCompatActivity {
     private AutoCompleteTextView txtAutoCompleteProvinsi;
     private Calendar myCalendar = Calendar.getInstance();
     private ProvinceController cProvince;
+
+    //Firebase Object
+    private FirebaseAuth auth;
+    private FirebaseDatabase fdb;
+    private DatabaseReference tbUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +60,10 @@ public class SignupActivity extends AppCompatActivity {
 
         cProvince= new ProvinceController(this);
 
+        auth=FirebaseAuth.getInstance();
+        fdb=FirebaseDatabase.getInstance();
+        tbUser=fdb.getReference("Users");
+
         btnSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,10 +77,51 @@ public class SignupActivity extends AppCompatActivity {
     }
 
     private void userRegister(){
+        formValidation();
         pbSignup.setVisibility(View.VISIBLE);
-        Toast.makeText(this, "Register Act", Toast.LENGTH_SHORT).show();
+        final String iEmail=txtEmail.getText().toString();
+        String iPassword=txtPassword.getText().toString();
+        auth.createUserWithEmailAndPassword(iEmail,iPassword)
+        .addOnCompleteListener(SignupActivity.this, new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                pbSignup.setVisibility(View.INVISIBLE);
+                if(task.isSuccessful()){
+                    //Get Text Input
+                    String iFullname = txtNama.getText().toString();
+                    String iTTL = txtTTL.getText().toString();
+                    String iProvinsi = txtAutoCompleteProvinsi.getText().toString();
+                    String iDN = txtDN.getText().toString();
+                    String iRole="Watcher";
+
+                    //Get a New User Information
+                    FirebaseUser aUser = auth.getCurrentUser();
+
+                    //String fullname, String ttl, String province, String displayname, String email
+                    UserModel user = new UserModel(iFullname,iTTL,iProvinsi,iDN,iEmail,iRole);
+                    String UserId = aUser.getUid();
+                    //Add New User Row (FirebaseDatabase)
+                    tbUser.child(UserId).setValue(user);
+
+                    Toast.makeText(SignupActivity.this, "Registrasi Berhasil", Toast.LENGTH_SHORT).show();
+                    auth.signOut();
+                    finish();
+                    //startActivity(new Intent(SignupActivity.this, HomeActivity.class));
+                }
+                else{
+                    Toast.makeText(SignupActivity.this, "Registrasi Gagal", Toast.LENGTH_SHORT).show();
+                }
+            }
+        })
+        ;
+        //pbSignup.setVisibility(View.VISIBLE);
+        //Toast.makeText(this, "Register Act", Toast.LENGTH_SHORT).show();
     }
 
+    //Form Validation
+    private void formValidation(){
+        ArrayList<Integer> error;
+    }
     // DatePicker
     private void pickADate(){
         final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {

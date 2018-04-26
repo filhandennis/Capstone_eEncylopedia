@@ -9,81 +9,283 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="25dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="2dp">
+
         <ImageView
             android:id="@+id/DetailItemGambar"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:src="@drawable/iconex"
-            android:padding="10dp"/>
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/iconex" />
+
         <TextView
             android:id="@+id/DetailItemJudul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:text="JUDUL_"
+            android:textAlignment="center"
             android:textSize="24sp"
-            android:textAlignment="center"/>
+            android:visibility="gone" />
+
         <TextView
             android:id="@+id/DetailItemDeskripsi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
             android:layout_margin="10dp"
+            android:padding="5dp"
             android:text="Deskripsi"
+            android:textAlignment="center"
             android:textSize="16sp"
-            android:textAlignment="center"/>
+            android:visibility="gone" />
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24dp"
-            android:layout_marginLeft="10dp"
-            android:text="Karakteristik"/>
-        <TextView
-            android:id="@+id/DetailItemKarakteristik"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="#Karakteristik"/>
-        <TextView
-            android:id="@+id/DetailItemDaerah"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:layout_marginLeft="10dp"
-            android:text="NAMA_DAERAH"/>
-        <ImageView
-            android:id="@+id/DetailItemGmbrDaerah"
-            android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:padding="10dp"
-            android:text="Deskripsi"/>
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            >
 
-        <TextView
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_secondary_outline"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:gravity="center"
+                android:visibility="invisible"
+                >
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_like" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="12sp"
+                    android:text="99+" />
+
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_comment" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"
+                    android:text="99+" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnDetailItemFavorite"
+                android:layout_width="0dp"
+                android:layout_weight="0.55"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_secondary_outline"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                >
+                <ImageView
+                    android:id="@+id/iconDetailItemFavorite"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_like"/>
+                <TextView
+                    android:id="@+id/lblDetailItemFavorite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:text="Add to Favorite"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.15"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_secondary_outline"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                >
+                <ImageView
+                    android:id="@+id/btnGSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/gsearch"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:layout_marginLeft="10dp"
-            android:text="Dimana bisa didapatkan?"/>
-        <TextView
-            android:id="@+id/DetailItemDidapatkan"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="16dp"
+                android:text="Karakteristik"
+                android:textColor="@color/color_detail_h1"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/color_detail_hr" />
+
+            <TextView
+                android:id="@+id/DetailItemKarakteristik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="#Karakteristik"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/listDetailItemKarakteristik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                >
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="#DaftarTempat"/>
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/DetailItemDaerah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="Sumatera Utara"
+                android:textColor="@color/color_detail_h1"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/color_detail_hr" />
+
+            <ImageView
+                android:id="@+id/DetailItemGmbrDaerah"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:padding="10dp"
+                android:text="Deskripsi" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="Lihat Penjual"
+                android:textColor="@color/color_detail_h1"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/color_detail_hr" />
+
+            <TextView
+                android:id="@+id/DetailItemDidapatkan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="#DaftarTempat"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="Komentar"
+                android:textColor="@color/color_detail_h1"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/color_detail_hr" />
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/btnDetailItemBecomeSeller"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Saya jual item ini"/>
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/button_secondary_outline"
+            android:text="Saya jual item ini" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"/>
+            android:layout_margin="20dp" />
     </LinearLayout>
-    
+
 </ScrollView>

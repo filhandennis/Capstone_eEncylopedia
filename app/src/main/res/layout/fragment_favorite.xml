@@ -5,11 +5,20 @@
     tools:context="com.develop.filhan.eencyclopediaone.FavoriteFragment">
 
     <ImageView
+        android:id="@+id/lblFavNoData"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_gravity="center"
         android:src="@drawable/ic_nocontenti"
         android:textAlignment="center"
-        android:layout_gravity="center"
-        android:visibility="visible"/>
+        android:visibility="visible" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerListItemFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
 
 </FrameLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "324250665656",
+    "firebase_url": "https://foodencyclopedi.firebaseio.com",
+    "project_id": "foodencyclopedi",
+    "storage_bucket": "foodencyclopedi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324250665656:android:5c826a569d9e0528",
+        "android_client_info": {
+          "package_name": "com.develop.filhan.eencyclopediaone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324250665656-g6mtmkpj0mt7kkr5l6e9irqq7l2h4smd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-vlxIkob7R3E4K7o6lk-IWr3jlyh3yyw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

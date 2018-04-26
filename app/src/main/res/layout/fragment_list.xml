@@ -4,10 +4,20 @@
     android:layout_height="match_parent"
     tools:context="com.develop.filhan.eencyclopediaone.ListFragment">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/fragment_list_recyclerview1"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    </android.support.v7.widget.RecyclerView>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fragment_list_recyclerview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+        <com.futuremind.recyclerviewfastscroll.FastScroller
+            android:id="@+id/fastscroll"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"/>s
+    </RelativeLayout>
 
 </FrameLayout>

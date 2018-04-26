@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -20,6 +21,17 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -29,14 +41,25 @@ public class AuthFragment extends Fragment {
     private ProgressBar pbSignin;
     private Button btnLogin;
     private EditText txtEmail, txtPassword;
-    private TextView lblNama, lblTTL, lblProvinsi, lblDN, lblEmail, btnRegister;
+    private TextView lblNama, lblTTL, lblProvinsi, lblDN, lblEmail, lblRole, btnRegister;
     private ImageView imgDP;
+
+    //Firebase Object
+    private FirebaseAuth auth;
+    private FirebaseDatabase fdb;
+    private DatabaseReference tbUser;
 
     private boolean userIsLogin;
 
     public AuthFragment() {
         // Required empty public constructor
-        userIsLogin=false;
+
+        //Initiate Firebase
+        auth=FirebaseAuth.getInstance();
+        fdb=FirebaseDatabase.getInstance();
+        tbUser=fdb.getReference("Users");
+        //Credential
+        userIsLogin=checkUserLogin();
     }
 
     @Override
@@ -80,12 +103,13 @@ public class AuthFragment extends Fragment {
         lblProvinsi=(TextView)v.findViewById(R.id.lblAuthProvinsi);
         lblDN=(TextView)v.findViewById(R.id.lblAuthDN);
         lblEmail=(TextView)v.findViewById(R.id.lblAuthEmail);
+        lblRole=(TextView)v.findViewById(R.id.lblAuthRole);
 
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                userLogin();
+                userActLogin();
             }
         });
         btnRegister.setOnClickListener(new View.OnClickListener() {
@@ -94,6 +118,12 @@ public class AuthFragment extends Fragment {
                 userRegister();
             }
         });
+
+        if(checkUserLogin()==true){
+            userLogin();
+        }else{
+            userLogout();
+        }
     }
 
     @Override
@@ -103,10 +133,56 @@ public class AuthFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_auth, container, false);
     }
 
-    private void userLogin(){
-        Toast.makeText(getActivity(), "User Login Action", Toast.LENGTH_SHORT).show();
+    private boolean checkUserLogin(){
+        return auth.getCurrentUser()!=null;
+    }
+
+    private void userActLogin(){
+        String email=txtEmail.getText().toString();
+        String pass=txtPassword.getText().toString();
+
+        //Login Validation
+        if(email.trim().length()<1 || pass.trim().length()<1){return;}
+
         pbSignin.setVisibility(View.VISIBLE);
-        userIsLogin=true;
+        auth.signInWithEmailAndPassword(email,pass)
+        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                pbSignin.setVisibility(View.INVISIBLE);
+                if(task.isSuccessful()){
+                    Toast.makeText(getActivity(), "Login Berhasil", Toast.LENGTH_SHORT).show();
+                    userIsLogin=true;
+                    getActivity().finish();
+                    getActivity().startActivity(new Intent(getActivity(),HomeActivity.class));
+                }else{
+                    Toast.makeText(getActivity(), "Login Gagal", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
+    private void userLogin(){
+        FirebaseUser curruser = auth.getCurrentUser();
+        String UserId = curruser.getUid();
+
+        (tbUser.child(UserId)).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                UserModel iUser = dataSnapshot.getValue(UserModel.class);
+                lblNama.setText(iUser.getFullname());
+                lblTTL.setText(iUser.getTtl());
+                lblProvinsi.setText(iUser.getProvince());
+                lblEmail.setText(iUser.getEmail());
+                lblDN.setText(iUser.getDisplayname());
+                lblRole.setText(iUser.getRole());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
         blockLogin.setVisibility(View.VISIBLE);
         blockNotLogin.setVisibility(View.GONE);
     }
@@ -114,6 +190,7 @@ public class AuthFragment extends Fragment {
     private void userLogout(){
         userIsLogin=false;
         // TODO NEXT LOGOUT
+        auth.signOut();
         // Hidden-Show Field
         blockLogin.setVisibility(View.GONE);
         blockNotLogin.setVisibility(View.VISIBLE);

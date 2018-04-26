@@ -38,7 +38,7 @@
             android:id="@+id/txtSignupTglLahir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="DD-MM-YYYY"
+            android:hint="DD/MM/YYYY"
             android:focusable="false"
             android:text="" />
 
