@@ -1,6 +1,8 @@
 package com.develop.filhan.eencyclopediaone;
 
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Fragment;
@@ -73,7 +75,7 @@ public class AuthFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.menu_auth_logout:
-                userLogout();
+                userActLogout();
                 break;
             case R.id.menu_auth_edit: break;
             case R.id.menu_auth_becomeseler: break;
@@ -187,6 +189,25 @@ public class AuthFragment extends Fragment {
         blockNotLogin.setVisibility(View.GONE);
     }
 
+    private void userActLogout(){
+        AlertDialog.Builder aConfirm = new AlertDialog.Builder(getActivity());
+        aConfirm.setTitle("Confirm Sign-out");
+        aConfirm.setMessage("Sign-out?");
+        aConfirm.setPositiveButton("Continue", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                userLogout();
+                Toast.makeText(getActivity(), "User Logout", Toast.LENGTH_SHORT).show();
+            }
+        });
+        aConfirm.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                return;
+            }
+        });
+        aConfirm.show();
+    }
     private void userLogout(){
         userIsLogin=false;
         // TODO NEXT LOGOUT
