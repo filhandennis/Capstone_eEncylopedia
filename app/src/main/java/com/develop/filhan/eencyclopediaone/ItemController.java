@@ -114,6 +114,19 @@ public class ItemController {
         return list;
     }
 
+    public ArrayList<MenuModel> randomData(int limit){
+        ArrayList<MenuModel> list = new ArrayList<>();
+        int min=0,max=210;
+        for (MenuModel item: selectAll()){
+            int randomNumber =min + (int)(Math.random() * (max - min));
+            if(randomNumber<=21){
+                list.add(item);
+            }
+            if(list.size()==limit){break;}
+        }
+        return list;
+    }
+
     public int countItems(ArrayList<MenuModel> list){
         return list.size();
     }

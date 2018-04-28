@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.develop.filhan.eencyclopediaone.Splashscreen">
+    android:orientation="vertical"
+    tools:context="com.develop.filhan.eencyclopediaone.Splashscreen"
+    android:gravity="center"
+    android:background="#f8f8f8">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imgSplashLogo"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:src="@drawable/iconex"
+        android:layout_marginBottom="28dp"/>
+    <TextView
+        android:id="@+id/lblSplashQuoteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="18sp"
+        android:textColor="#818181"
+        android:textStyle="italic"
+        android:text="Food is our common ground, a universal experience"/>
+    <TextView
+        android:id="@+id/lblSplashQuoteAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textColor="#969696"
+        android:text="James Beard"/>
+
+    <ProgressBar
+        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+</LinearLayout>
