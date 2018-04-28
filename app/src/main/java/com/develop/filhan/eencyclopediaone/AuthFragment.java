@@ -78,7 +78,7 @@ public class AuthFragment extends Fragment {
                 userActLogout();
                 break;
             case R.id.menu_auth_edit: break;
-            case R.id.menu_auth_becomeseler: break;
+            case R.id.menu_auth_becomeseler: startActivity(new Intent(getActivity(), SellerRegistrationActivity.class)); break;
         }
         return super.onOptionsItemSelected(item);
     }
