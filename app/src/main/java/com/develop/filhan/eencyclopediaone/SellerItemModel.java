@@ -6,19 +6,31 @@ package com.develop.filhan.eencyclopediaone;
 
 public class SellerItemModel {
     private String uuid;
+    private int menuId;
     private String itemname;
     private String address;
+    private String latlon;
     private int minPrice, maxPrice;
 
     public SellerItemModel() {
     }
 
-    public SellerItemModel(String uuid, String itemname, String address, int minPrice, int maxPrice) {
+    public SellerItemModel(int menuId, String uuid, String itemname, String address, int minPrice, int maxPrice) {
+        this.menuId = menuId;
         this.uuid = uuid;
         this.itemname = itemname;
         this.address = address;
+        this.latlon = "";
         this.minPrice = minPrice;
         this.maxPrice = maxPrice;
+    }
+
+    public int getMenuId() {
+        return menuId;
+    }
+
+    public void setMenuId(int menuId) {
+        this.menuId = menuId;
     }
 
     public String getUuid() {
@@ -43,6 +55,14 @@ public class SellerItemModel {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getLatlon() {
+        return latlon;
+    }
+
+    public void setLatlon(String latlon) {
+        this.latlon = latlon;
     }
 
     public int getMinPrice() {

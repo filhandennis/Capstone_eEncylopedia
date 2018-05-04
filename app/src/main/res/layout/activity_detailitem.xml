@@ -250,12 +250,18 @@
                 android:background="@color/color_detail_hr" />
 
             <TextView
-                android:id="@+id/DetailItemDidapatkan"
+                android:id="@+id/DetailItemInfoSeller"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="#DaftarTempat"
-                android:visibility="invisible" />
+                android:textAlignment="center"
+                android:text="Item Belum Ada"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/listDetailItemSellers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
 
             <Button
                 android:id="@+id/btnDetailSellerAdd"

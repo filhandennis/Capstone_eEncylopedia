@@ -7,15 +7,17 @@ package com.develop.filhan.eencyclopediaone;
 public class CommentModel {
     private int menuId;
     private String user;
+    private String email;
     private String date;
     private String text;
 
     public CommentModel() {
     }
 
-    public CommentModel(int menuId, String user, String date, String text) {
+    public CommentModel(int menuId, String user, String email, String date, String text) {
         this.menuId = menuId;
         this.user = user;
+        this.email = email;
         this.date = date;
         this.text = text;
     }
@@ -34,6 +36,14 @@ public class CommentModel {
 
     public void setUser(String user) {
         this.user = user;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getDate() {

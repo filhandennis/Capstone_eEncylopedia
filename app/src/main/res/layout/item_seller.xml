@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblSellerItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp1000 - Rp10000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/lblSellerItemNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toko Manis"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/lblSellerItemDistance"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="999m"/>
+
+</LinearLayout>

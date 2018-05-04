@@ -1,12 +1,15 @@
 package com.develop.filhan.eencyclopediaone;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.location.Address;
 import android.location.Geocoder;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.util.Log;
 import android.view.View;
@@ -27,10 +30,16 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.util.ArrayList;
 import java.util.List;
 
 public class DetailItem extends AppCompatActivity implements OnMapReadyCallback {
@@ -45,6 +54,8 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
     private EditText txtComment;
     private LinearLayout listKarakter, btnFav, blockCommentInput;
     private MapView mapProvinsi;
+    private TextView infoSeller, infoComment;
+    private RecyclerView listSellers, listComments;
 
     private int favState = R.drawable.loving;
     private int itemId;
@@ -59,12 +70,19 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
 
     //Firebase Object
     private FirebaseAuth auth;
+    private FirebaseDatabase fdb;
+
+    //Recycler Adapter
+    AdapterRecyclerSeller adapterSeller;
+    AdapterRecyclerComment adapterComment;
+    //Adapter Collections
+    ArrayList<CommentModel> dataComments;
+    ArrayList<SellerItemModel> dataSellersItem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detailitem);
-
         //
         iconFavorite = (ImageView) findViewById(R.id.iconDetailItemFavorite);
         btnFav = (LinearLayout) findViewById(R.id.btnDetailItemFavorite);
@@ -75,7 +93,6 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
         lblDeskripsi = (TextView) findViewById(R.id.DetailItemDeskripsi);
         lblDaerah = (TextView) findViewById(R.id.DetailItemDaerah);
         lblKarakter = (TextView) findViewById(R.id.DetailItemKarakteristik);
-        lblDidapatkan = (TextView) findViewById(R.id.DetailItemDidapatkan);
         btnDetailSellerAdd = (Button) findViewById(R.id.btnDetailSellerAdd);
         btnGoogleImage = (ImageView) findViewById(R.id.btnGSearch);
         txtComment=(EditText)findViewById(R.id.txtDetailComment);
@@ -83,6 +100,21 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
 
         listKarakter = (LinearLayout) findViewById(R.id.listDetailItemKarakteristik);
         blockCommentInput = (LinearLayout) findViewById(R.id.blockDetailComment);
+
+        //Init2
+        infoSeller=(TextView)findViewById(R.id.DetailItemInfoSeller);
+        infoComment=(TextView)findViewById(R.id.DetailItemInfoComment);
+        listSellers=(RecyclerView)findViewById(R.id.listDetailItemSellers);
+        listSellers.setLayoutManager(new LinearLayoutManager(this));
+        listComments=(RecyclerView)findViewById(R.id.listDetailComment);
+        listComments.setLayoutManager(new LinearLayoutManager(this));
+        dataComments=new ArrayList<>();
+        dataSellersItem=new ArrayList<>();
+        adapterComment=new AdapterRecyclerComment(dataComments);
+        listComments.setAdapter(adapterComment);
+        adapterSeller=new AdapterRecyclerSeller(dataSellersItem);
+        listSellers.setAdapter(adapterSeller);
+
 
         //Map Object
         mapProvinsi = (MapView) findViewById(R.id.DetailItemMap);
@@ -133,11 +165,13 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
             }
         });
 
+
+        btnDetailSellerAdd.setVisibility(View.GONE);
         btnDetailSellerAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent addSeller = new Intent(getApplicationContext(), SellerAddItemActivity.class);
-                addSeller.putExtra(SellerAddItemActivity.SELLER_REGISTRATION_ITEMID, itemCurrent.getId());
+                addSeller.putExtra(SellerAddItemActivity.SELLER_REGISTRATION_ITEMID, ""+itemCurrent.getId());
                 addSeller.putExtra(SellerAddItemActivity.SELLER_REGISTRATION_ITEM, itemCurrent.getJudul());
                 startActivity(addSeller);
             }
@@ -152,8 +186,9 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
         if(auth.getCurrentUser()!=null) {
             blockCommentInput.setVisibility(View.VISIBLE);
             final FirebaseUser userLogin = auth.getCurrentUser();
+            final SharedPreferences prefUser = getApplicationContext().getSharedPreferences("User",0);
 
-            //Wait Until 10 Second
+            //Wait Until 10 Second to Add View Counting
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
@@ -166,12 +201,63 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
                 @Override
                 public void onClick(View view) {
                     String txt = txtComment.getText().toString();
-                    menuHelper.addComment(""+itemId, ""+userLogin.getUid(), ""+txt);
+                    if(txt.trim().length()<2){return;}
+                    menuHelper.addComment(""+itemId, ""+userLogin.getUid(), ""+prefUser.getString("EMAIL","Anonim@anonim.an"), ""+txt);
                     txtComment.setText("");
                     Toast.makeText(DetailItem.this, "Comment Added", Toast.LENGTH_SHORT).show();
                 }
             });
+
+            String role = prefUser.getString("ROLE","Watcher");
+            if(!(role.equalsIgnoreCase("Watcher"))){
+                btnDetailSellerAdd.setVisibility(View.VISIBLE);
+            }
         }
+
+        fdb=FirebaseDatabase.getInstance();
+        //Init Data RecyclerList
+        //Comment
+        DatabaseReference tbComment = fdb.getReference("Menus").child(""+itemId).child("Comments");
+        tbComment.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if(dataSnapshot.getChildrenCount()<1){return;}
+                infoComment.setVisibility(View.GONE);
+                dataComments.clear();
+                for(DataSnapshot ps: dataSnapshot.getChildren()){
+                    CommentModel comment = ps.getValue(CommentModel.class);
+                    dataComments.add(comment);
+                    adapterComment.notifyDataSetChanged();
+                }
+                Log.d("DETAIL:COUNT:COMMENT","Count "+dataComments.size());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Log.d("DETAIL:ERROR:COMMENT","Error -- "+databaseError.getMessage());
+            }
+        });
+        //Seller
+        DatabaseReference tbSeller = fdb.getReference("Menus").child(""+itemId).child("Sellers");
+        tbSeller.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if(dataSnapshot.getChildrenCount()<1){return;}
+                infoSeller.setVisibility(View.GONE);
+                dataSellersItem.clear();
+                for(DataSnapshot ps: dataSnapshot.getChildren()){
+                    SellerItemModel sellerItem = ps.getValue(SellerItemModel.class);
+                    dataSellersItem.add(sellerItem);
+                    adapterSeller.notifyDataSetChanged();
+                }
+                Log.d("DETAIL:COUNT:SELLER","Count "+dataSellersItem.size());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Log.d("DETAIL:ERROR:SELLER","Error -- "+databaseError.getMessage());
+            }
+        });
     }
 
     private void packKarakter(MenuModel item) {

@@ -81,6 +81,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="e.g. 10000"
+                    android:text="0"
                     android:inputType="number"
                     />
             </LinearLayout>
@@ -101,6 +102,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="e.g. 1000000"
+                    android:text="0"
                     android:inputType="number"
                     />
             </LinearLayout>

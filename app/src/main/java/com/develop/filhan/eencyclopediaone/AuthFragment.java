@@ -4,6 +4,7 @@ package com.develop.filhan.eencyclopediaone;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.os.Handler;
@@ -51,6 +52,10 @@ public class AuthFragment extends Fragment {
     private FirebaseDatabase fdb;
     private DatabaseReference tbUser;
 
+    //Shared Preferences
+    private SharedPreferences prefUser, prefSeller;
+    private SharedPreferences.Editor prefEdit, prefEditSeller;
+
     private boolean userIsLogin;
 
     public AuthFragment() {
@@ -78,7 +83,13 @@ public class AuthFragment extends Fragment {
                 userActLogout();
                 break;
             case R.id.menu_auth_edit: break;
-            case R.id.menu_auth_becomeseler: startActivity(new Intent(getActivity(), SellerRegistrationActivity.class)); break;
+            case R.id.menu_auth_becomeseler:
+                if(!(prefUser.getString("ROLE","Watcher").equalsIgnoreCase("Watcher"))){
+                    Toast.makeText(getActivity(), "You're Already be A Seller", Toast.LENGTH_SHORT).show();
+                    return true;
+                }
+                startActivity(new Intent(getActivity(), SellerRegistrationActivity.class));
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -88,6 +99,13 @@ public class AuthFragment extends Fragment {
         super.onViewCreated(v, savedInstanceState);
         setHasOptionsMenu(true);
         ((HomeActivity) getActivity()).setActionBarTitle("Profile");
+
+        //User Section
+        prefUser=getActivity().getSharedPreferences("User",0);
+        prefEdit= prefUser.edit();
+        //Seller Section
+        prefSeller=getActivity().getSharedPreferences("Seller",0);
+        prefEditSeller= prefSeller.edit();
 
         // Inisialisasi Komponen View
         blockNotLogin=(LinearLayout)v.findViewById(R.id.blockSigninNotLogin);
@@ -153,7 +171,7 @@ public class AuthFragment extends Fragment {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 pbSignin.setVisibility(View.INVISIBLE);
                 if(task.isSuccessful()){
-                    Toast.makeText(getActivity(), "Login Berhasil", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Welcome !", Toast.LENGTH_SHORT).show();
                     userIsLogin=true;
                     getActivity().finish();
                     getActivity().startActivity(new Intent(getActivity(),HomeActivity.class));
@@ -165,7 +183,7 @@ public class AuthFragment extends Fragment {
     }
     private void userLogin(){
         FirebaseUser curruser = auth.getCurrentUser();
-        String UserId = curruser.getUid();
+        final String UserId = curruser.getUid();
 
         (tbUser.child(UserId)).addValueEventListener(new ValueEventListener() {
             @Override
@@ -177,6 +195,32 @@ public class AuthFragment extends Fragment {
                 lblEmail.setText(iUser.getEmail());
                 lblDN.setText(iUser.getDisplayname());
                 lblRole.setText(iUser.getRole());
+
+                prefEdit.putString("UUID",""+UserId);
+                prefEdit.putString("EMAIL",""+iUser.getEmail());
+                prefEdit.putString("ROLE",""+iUser.getRole());
+                prefEdit.putString("PROVINCE",""+iUser.getProvince());
+                prefEdit.commit();
+
+                //If Role Seller
+                if(iUser.getRole().equalsIgnoreCase("Seller")){
+                    (FirebaseDatabase.getInstance().getReference("Sellers").child(UserId))
+                            .addListenerForSingleValueEvent(new ValueEventListener() {
+                                @Override
+                                public void onDataChange(DataSnapshot dataSnapshot) {
+                                    SellerModel seller = dataSnapshot.getValue(SellerModel.class);
+                                    prefEditSeller.putString("Address", seller.getAddress());
+                                    prefEditSeller.putString("LatLon", seller.getLatlon());
+                                    prefEditSeller.putString("Status", seller.getStatus());
+                                    prefEditSeller.commit();
+                                }
+
+                                @Override
+                                public void onCancelled(DatabaseError databaseError) {
+
+                                }
+                            });
+                }
             }
 
             @Override
@@ -197,7 +241,7 @@ public class AuthFragment extends Fragment {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 userLogout();
-                Toast.makeText(getActivity(), "User Logout", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "See you!", Toast.LENGTH_SHORT).show();
             }
         });
         aConfirm.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -211,7 +255,11 @@ public class AuthFragment extends Fragment {
     private void userLogout(){
         userIsLogin=false;
         // TODO NEXT LOGOUT
+        //Firebase Logout
         auth.signOut();
+        //Clear SharedPreferences
+        prefEdit.clear();
+        prefEdit.commit();
         // Hidden-Show Field
         blockLogin.setVisibility(View.GONE);
         blockNotLogin.setVisibility(View.VISIBLE);

@@ -62,13 +62,13 @@ public class MenuFirebaseHelper {
         Log.d("MENU::VIEW","REF -- "+key);
     }
 
-    public void addComment(String menuId, String userUUID, String text){
+    public void addComment(String menuId, String userUUID, String email, String text){
         // Get Date and Time (Timestamp)
         String ts = getTimestamp();
         //Firebase Ref.
         DatabaseReference tbComment = tbMenu.child(menuId).child("Comments");
         String key = tbComment.push().getKey();
-        tbComment.child(key).setValue(new CommentModel(Integer.parseInt(menuId), userUUID, ts, text));
+        tbComment.child(key).setValue(new CommentModel(Integer.parseInt(menuId), userUUID, email, ts, text));
         Log.d("MENU::COMMENT","REF -- "+key);
     }
 
@@ -86,8 +86,12 @@ public class MenuFirebaseHelper {
         Log.d("MENU:DELETE:LIKE","REF -- "+userUUID);
     }
 
-    public void addSeller(String menuId, String userUUID){
-
+    public void addMenuSeller(String menuId, String userId, String namaItem, String address, String latlon, int minPrice, int maxPrice){
+        DatabaseReference tbSeller = tbMenu.child(menuId).child("Sellers");
+        SellerItemModel sellerItem = new SellerItemModel(Integer.parseInt(menuId), userId, namaItem, address, minPrice, maxPrice);
+        sellerItem.setLatlon(latlon);
+        tbSeller.child(userId).setValue(sellerItem);
+        Log.d("MENU::SELLER","REF -- "+userId);
     }
 
     public List<MenuFirebaseModel> getAllMenus(){

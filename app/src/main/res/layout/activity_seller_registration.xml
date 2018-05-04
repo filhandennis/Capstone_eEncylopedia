@@ -67,7 +67,7 @@
         android:visibility="invisible"/>
 
     <Button
-        android:id="@+id/btnItemSellerAdd"
+        android:id="@+id/btnSellerReg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_primary"
