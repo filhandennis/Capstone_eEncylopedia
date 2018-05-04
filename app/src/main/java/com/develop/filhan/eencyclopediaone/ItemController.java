@@ -93,6 +93,17 @@ public class ItemController {
         }
         return list;
     }
+    public MenuModel findItemById(int id) throws NullPointerException{
+//        MenuModel x = null;
+        for(MenuModel item: selectAll()){
+            if(item.getId()==id){
+//                x = item;
+                return item;
+            }
+        }
+        return null;
+//        return x;
+    }
 
     public ArrayList<MenuModel> sortByName(ArrayList<MenuModel> list, boolean asc){
         Collections.sort(list, new Comparator<MenuModel>() {

@@ -12,6 +12,7 @@ public class MenuModel implements Serializable{
     private String daerah;
     private String deskripsi;
     private String gambar;
+    private int viewsCount=0, commentsCount=0, favoritesCount=0;
 
     public MenuModel(String judul, String daerah, String deskripsi, String gambar) {
         this.id = -1;
@@ -59,5 +60,29 @@ public class MenuModel implements Serializable{
 
     public void setGambar(String gambar) {
         this.gambar = gambar;
+    }
+
+    public int getViewsCount() {
+        return viewsCount;
+    }
+
+    public void setViewsCount(int viewsCount) {
+        this.viewsCount = viewsCount;
+    }
+
+    public int getCommentsCount() {
+        return commentsCount;
+    }
+
+    public void setCommentsCount(int commentsCount) {
+        this.commentsCount = commentsCount;
+    }
+
+    public int getFavoritesCount() {
+        return favoritesCount;
+    }
+
+    public void setFavoritesCount(int favoritesCount) {
+        this.favoritesCount = favoritesCount;
     }
 }

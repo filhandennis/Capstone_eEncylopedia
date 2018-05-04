@@ -7,13 +7,13 @@
     android:orientation="vertical"
     tools:context="com.develop.filhan.eencyclopediaone.Splashscreen"
     android:gravity="center"
-    android:background="#f8f8f8">
+    android:background="#f7f7f7">
 
     <ImageView
         android:id="@+id/imgSplashLogo"
         android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:src="@drawable/iconex"
+        android:layout_height="180dp"
+        android:src="@drawable/iic_logo"
         android:layout_marginBottom="28dp"/>
     <TextView
         android:id="@+id/lblSplashQuoteText"
@@ -25,7 +25,7 @@
         android:textSize="18sp"
         android:textColor="#818181"
         android:textStyle="italic"
-        android:text="Food is our common ground, a universal experience"/>
+        android:text="..........."/>
     <TextView
         android:id="@+id/lblSplashQuoteAuthor"
         android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:textAlignment="center"
         android:textSize="14sp"
         android:textColor="#969696"
-        android:text="James Beard"/>
+        android:text="....."/>
 
     <ProgressBar
         android:layout_marginTop="28dp"

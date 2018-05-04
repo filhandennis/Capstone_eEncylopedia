@@ -256,6 +256,17 @@
                 android:padding="10dp"
                 android:text="#DaftarTempat"
                 android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnDetailSellerAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:background="@drawable/button_secondary_outline"
+                android:text="Saya jual item ini" />
         </LinearLayout>
 
         <LinearLayout
@@ -279,18 +290,8 @@
                 android:layout_marginTop="2dp"
                 android:background="@color/color_detail_hr" />
 
+            <include layout="@layout/content_comment"/>
         </LinearLayout>
-
-        <Button
-            android:id="@+id/btnDetailSellerAdd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="26dp"
-            android:layout_marginRight="26dp"
-            android:background="@drawable/button_secondary_outline"
-            android:text="Saya jual item ini" />
 
         <Space
             android:layout_width="match_parent"

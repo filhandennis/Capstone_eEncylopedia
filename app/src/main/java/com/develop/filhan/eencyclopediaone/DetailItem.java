@@ -4,12 +4,14 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.location.Address;
 import android.location.Geocoder;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -23,6 +25,8 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -35,10 +39,11 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
     public final static String EXTRA_POSITION = "MENU_ID_POSITION";
     public final static String EXTRA_DAERAH = "MENU_STR_DAERAH";
 
-    private ImageView imgMakanan, imgDaerah, iconFavorite, btnGoogleImage;
+    private ImageView imgMakanan, imgDaerah, iconFavorite, btnGoogleImage, btnSendComment;
     private TextView lblJudul, lblDeskripsi, lblDaerah, lblKarakter, lblDidapatkan, lblFavorite;
     private Button btnDetailSellerAdd;
-    private LinearLayout listKarakter, btnFav;
+    private EditText txtComment;
+    private LinearLayout listKarakter, btnFav, blockCommentInput;
     private MapView mapProvinsi;
 
     private int favState = R.drawable.loving;
@@ -50,6 +55,10 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
     private GoogleMap gMap;
 
     private FavoriteHelper favHelper;
+    private MenuFirebaseHelper menuHelper;
+
+    //Firebase Object
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,8 +78,11 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
         lblDidapatkan = (TextView) findViewById(R.id.DetailItemDidapatkan);
         btnDetailSellerAdd = (Button) findViewById(R.id.btnDetailSellerAdd);
         btnGoogleImage = (ImageView) findViewById(R.id.btnGSearch);
+        txtComment=(EditText)findViewById(R.id.txtDetailComment);
+        btnSendComment=(ImageView)findViewById(R.id.icoDetailComment);
 
         listKarakter = (LinearLayout) findViewById(R.id.listDetailItemKarakteristik);
+        blockCommentInput = (LinearLayout) findViewById(R.id.blockDetailComment);
 
         //Map Object
         mapProvinsi = (MapView) findViewById(R.id.DetailItemMap);
@@ -130,6 +142,36 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
                 startActivity(addSeller);
             }
         });
+
+        //Firebase Object
+        auth=FirebaseAuth.getInstance();
+        menuHelper = new MenuFirebaseHelper(this);
+
+        blockCommentInput.setVisibility(View.GONE);
+        //Action if user already Login
+        if(auth.getCurrentUser()!=null) {
+            blockCommentInput.setVisibility(View.VISIBLE);
+            final FirebaseUser userLogin = auth.getCurrentUser();
+
+            //Wait Until 10 Second
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    menuHelper.addView("" + itemId, "" + userLogin.getUid());
+                }
+            },10000);
+
+            //Comment Act
+            btnSendComment.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    String txt = txtComment.getText().toString();
+                    menuHelper.addComment(""+itemId, ""+userLogin.getUid(), ""+txt);
+                    txtComment.setText("");
+                    Toast.makeText(DetailItem.this, "Comment Added", Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
     }
 
     private void packKarakter(MenuModel item) {
@@ -156,12 +198,16 @@ public class DetailItem extends AppCompatActivity implements OnMapReadyCallback 
         if (favState == R.drawable.loving) {
             favState = R.drawable.lover;
             lbl = "Love it!";
+            //Add Love to Firebase
+            if(FirebaseAuth.getInstance().getCurrentUser()!=null){menuHelper.addLike(""+itemId,FirebaseAuth.getInstance().getCurrentUser().getUid());}
             if (favHelper.addFav(itemId) > -1) {
                 Toast.makeText(this, lbl, Toast.LENGTH_SHORT).show();
             }
         } else {
             favState = R.drawable.loving;
             lbl = "Add to Favorite";
+            //Delete Love to Firebase
+            if(FirebaseAuth.getInstance().getCurrentUser()!=null){menuHelper.removeLike(""+itemId,FirebaseAuth.getInstance().getCurrentUser().getUid());}
             if (favHelper.deleteFav(itemId) == true) {
                 Toast.makeText(this, "Ouch...", Toast.LENGTH_SHORT).show();
             }

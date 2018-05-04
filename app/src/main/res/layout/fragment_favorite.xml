@@ -7,9 +7,9 @@
     <ImageView
         android:id="@+id/lblFavNoData"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="200dp"
         android:layout_gravity="center"
-        android:src="@drawable/ic_nocontenti"
+        android:src="@drawable/iic_menu_fav"
         android:textAlignment="center"
         android:visibility="visible" />
 

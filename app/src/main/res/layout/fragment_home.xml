@@ -15,8 +15,8 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:src="@drawable/ic_nocontenti" />
+            android:layout_height="200dp"
+            android:src="@drawable/iic_error" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -77,13 +77,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="20sp"
-                            android:text="Donat Madu"/>
+                            android:text="........"/>
                         <TextView
                             android:id="@+id/lblHomeUserProvince"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="14sp"
-                            android:text="Sumatera Utara"/>
+                            android:text="........"/>
                     </LinearLayout>
                 <LinearLayout
                     android:layout_width="0dp"
@@ -127,6 +127,13 @@
                         android:text="Recommended"
                         android:textSize="22sp" />
 
+                    <ProgressBar
+                        android:id="@+id/pbHomeR"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_margin="8dp"
+                        />
+
                     <android.support.v7.widget.RecyclerView
                         android:id="@+id/lblHomeRecyclerR"
                         android:layout_width="match_parent"
@@ -149,7 +156,7 @@
                     android:paddingBottom="16dp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:paddingTop="16dp">
+                    android:paddingTop="8dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -157,6 +164,13 @@
                         android:layout_marginBottom="8dp"
                         android:text="Most Hits"
                         android:textSize="22sp" />
+
+                    <ProgressBar
+                        android:id="@+id/pbHomeH"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_margin="8dp"
+                        />
 
                     <android.support.v7.widget.RecyclerView
                         android:id="@+id/lblHomeRecyclerH"
@@ -178,7 +192,7 @@
                     android:paddingBottom="16dp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:paddingTop="16dp">
+                    android:paddingTop="8dp">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -186,6 +200,13 @@
                         android:layout_marginBottom="8dp"
                         android:text="Favorable"
                         android:textSize="22sp" />
+
+                    <ProgressBar
+                        android:id="@+id/pbHomeF"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_margin="8dp"
+                        />
 
                     <android.support.v7.widget.RecyclerView
                         android:id="@+id/lblHomeRecyclerF"

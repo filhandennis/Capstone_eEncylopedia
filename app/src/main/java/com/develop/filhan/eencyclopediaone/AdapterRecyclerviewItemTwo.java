@@ -57,8 +57,8 @@ public class AdapterRecyclerviewItemTwo extends RecyclerView.Adapter<AdapterRecy
         public void bindTo(MenuModel item){
             lblNama.setText(item.getJudul());
             lblDaerah.setText(item.getDaerah());
-            lblView.setText("1997");
-            lblLike.setText("2018");
+            lblView.setText(""+item.getViewsCount());
+            lblLike.setText(""+item.getFavoritesCount());
         }
     }
 }
