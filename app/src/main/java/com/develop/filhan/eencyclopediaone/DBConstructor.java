@@ -1,7 +1,7 @@
 package com.develop.filhan.eencyclopediaone;
 
 /**
- * Created by ASUS on 23/04/2018.
+ * Class untuk Menunjukan Informasi akan SQLite
  */
 
 public class DBConstructor {

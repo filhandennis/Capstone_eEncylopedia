@@ -11,6 +11,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
+
+/*
+* BELUM ADA FUNGSINYA
+* */
 public class SearchFragment extends Fragment {
 
 

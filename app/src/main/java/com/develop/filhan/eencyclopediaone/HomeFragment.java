@@ -36,14 +36,16 @@ import java.util.List;
  */
 public class HomeFragment extends Fragment {
 
+    //Class Helper
     private FavoriteHelper favHelper;
+    //View Component
     private ImageView iconFav;
     private TextView lblUserName, lblUserProvince, lblUserFavNum;
     private RecyclerView rvRecommend, rvHits, rvFavorable;
     private LinearLayout blockNotLogin;
     private ScrollView blockLogin;
     private ProgressBar pbR, pbH, pbF;
-
+    //Firebase Auth
     private FirebaseAuth auth;
     private UserModel userAuth;
 
@@ -52,6 +54,7 @@ public class HomeFragment extends Fragment {
     private MenuFirebaseHelper menuHelper;
     private ItemController cItemMenu;
 
+    //Constructor Fragment
     public HomeFragment() {
         // Required empty public constructor
         auth=FirebaseAuth.getInstance();

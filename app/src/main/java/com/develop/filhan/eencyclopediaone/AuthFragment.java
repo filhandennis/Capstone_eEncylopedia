@@ -36,10 +36,11 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 /**
- * A simple {@link Fragment} subclass.
+ * Class Fragment untuk Halaman Login, Register dan User Information.
  */
 public class AuthFragment extends Fragment {
 
+    //Komponen View
     private LinearLayout blockLogin, blockNotLogin;
     private ProgressBar pbSignin;
     private Button btnLogin;
@@ -58,9 +59,8 @@ public class AuthFragment extends Fragment {
 
     private boolean userIsLogin;
 
+    //Constructor
     public AuthFragment() {
-        // Required empty public constructor
-
         //Initiate Firebase
         auth=FirebaseAuth.getInstance();
         fdb=FirebaseDatabase.getInstance();
@@ -69,6 +69,7 @@ public class AuthFragment extends Fragment {
         userIsLogin=checkUserLogin();
     }
 
+    //Untuk menambahkan/membuat menu pada Action Bar yang diambil dari menu.xml
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         if(userIsLogin!=true){menu.clear(); return;}
@@ -76,14 +77,21 @@ public class AuthFragment extends Fragment {
         inflater.inflate(R.menu.menu_auth, menu);
     }
 
+    //Aksi jika item menu dipilih
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        //Mengambil Item ID dari item yang dipilih di Menu
         switch (item.getItemId()){
+            //Aksi untuk Logout
             case R.id.menu_auth_logout:
                 userActLogout();
                 break;
+            //Aksi untuk Edit Profile(Kosong)
             case R.id.menu_auth_edit: break;
+            //Aksi untuk Menjadi Seller
             case R.id.menu_auth_becomeseler:
+                //Pengecekan Role Watcher dengan menggunakan SharedPreference, untuk mencegah Role selain watcher
+                //mendaftarkan kembali
                 if(!(prefUser.getString("ROLE","Watcher").equalsIgnoreCase("Watcher"))){
                     Toast.makeText(getActivity(), "You're Already be A Seller", Toast.LENGTH_SHORT).show();
                     return true;
@@ -94,11 +102,12 @@ public class AuthFragment extends Fragment {
         return super.onOptionsItemSelected(item);
     }
 
+    //Method yang dijalankan jika Layout View telah dibuat/pack
     @Override
     public void onViewCreated(View v, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(v, savedInstanceState);
-        setHasOptionsMenu(true);
-        ((HomeActivity) getActivity()).setActionBarTitle("Profile");
+        setHasOptionsMenu(true); //Atur untuk memberitahukan bahwafraggment ini mempunyai menu
+        ((HomeActivity) getActivity()).setActionBarTitle("Profile"); //Setting nama action bar
 
         //User Section
         prefUser=getActivity().getSharedPreferences("User",0);
@@ -125,7 +134,7 @@ public class AuthFragment extends Fragment {
         lblEmail=(TextView)v.findViewById(R.id.lblAuthEmail);
         lblRole=(TextView)v.findViewById(R.id.lblAuthRole);
 
-
+        //Button Action
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -139,6 +148,7 @@ public class AuthFragment extends Fragment {
             }
         });
 
+        //Check Login atau Tidak
         if(checkUserLogin()==true){
             userLogin();
         }else{
@@ -146,6 +156,7 @@ public class AuthFragment extends Fragment {
         }
     }
 
+    //Membuat Layout di Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -153,22 +164,29 @@ public class AuthFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_auth, container, false);
     }
 
+    //Melakukan Cek User Logindengan FirebaseAuth
     private boolean checkUserLogin(){
         return auth.getCurrentUser()!=null;
     }
 
+    //Aksi untuk User yang login
+    //Aksi ini digunakan untuk melakukan cek data User yang akan login
     private void userActLogin(){
+        //Get Value
         String email=txtEmail.getText().toString();
         String pass=txtPassword.getText().toString();
 
         //Login Validation
         if(email.trim().length()<1 || pass.trim().length()<1){return;}
 
+        //Display Loading
         pbSignin.setVisibility(View.VISIBLE);
+        //FirebaseAuth by Email&Password
         auth.signInWithEmailAndPassword(email,pass)
         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+                //Hidden Loading
                 pbSignin.setVisibility(View.INVISIBLE);
                 if(task.isSuccessful()){
                     Toast.makeText(getActivity(), "Welcome !", Toast.LENGTH_SHORT).show();
@@ -181,21 +199,26 @@ public class AuthFragment extends Fragment {
             }
         });
     }
+
+    //Method ini digunakan untuk mengambil informasi akan user yang sedang login
     private void userLogin(){
         FirebaseUser curruser = auth.getCurrentUser();
         final String UserId = curruser.getUid();
 
+        //Firebase Reference berdasarkan ID User Login
         (tbUser.child(UserId)).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                //Make FirebaseDatabase / DatabaseReference Object to Model Class
                 UserModel iUser = dataSnapshot.getValue(UserModel.class);
+                //Get Information from Model
                 lblNama.setText(iUser.getFullname());
                 lblTTL.setText(iUser.getTtl());
                 lblProvinsi.setText(iUser.getProvince());
                 lblEmail.setText(iUser.getEmail());
                 lblDN.setText(iUser.getDisplayname());
                 lblRole.setText(iUser.getRole());
-
+                //Put and Save SharedPreference about User Information
                 prefEdit.putString("UUID",""+UserId);
                 prefEdit.putString("EMAIL",""+iUser.getEmail());
                 prefEdit.putString("ROLE",""+iUser.getRole());
@@ -203,6 +226,8 @@ public class AuthFragment extends Fragment {
                 prefEdit.commit();
 
                 //If Role Seller
+                //Check if user have a role seller
+                //Jika role user seller maka akan Dilakukan pengambilan informasi tentang sellernya
                 if(iUser.getRole().equalsIgnoreCase("Seller")){
                     (FirebaseDatabase.getInstance().getReference("Sellers").child(UserId))
                             .addListenerForSingleValueEvent(new ValueEventListener() {
@@ -229,14 +254,19 @@ public class AuthFragment extends Fragment {
             }
         });
 
+        //Display Block User Information
         blockLogin.setVisibility(View.VISIBLE);
+        //Hidden Form Login
         blockNotLogin.setVisibility(View.GONE);
     }
 
+    //Aksi yang dilakukan jika User Hendak Logout / Mengklik tombol Logout
     private void userActLogout(){
+        //AlertDialog
         AlertDialog.Builder aConfirm = new AlertDialog.Builder(getActivity());
         aConfirm.setTitle("Confirm Sign-out");
         aConfirm.setMessage("Sign-out?");
+        //Jika tombol "Continue" ditekan
         aConfirm.setPositiveButton("Continue", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -244,6 +274,7 @@ public class AuthFragment extends Fragment {
                 Toast.makeText(getActivity(), "See you!", Toast.LENGTH_SHORT).show();
             }
         });
+        //Jika tombol "Cancel" ditekan
         aConfirm.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -252,6 +283,8 @@ public class AuthFragment extends Fragment {
         });
         aConfirm.show();
     }
+    //Method yang digunakan untuk melakukan Logout pada Aplikasi, hal ini termasuk penghapusan
+    //Informasi Logout FirebaseAuth dan SharedPreferences
     private void userLogout(){
         userIsLogin=false;
         // TODO NEXT LOGOUT
@@ -265,6 +298,7 @@ public class AuthFragment extends Fragment {
         blockNotLogin.setVisibility(View.VISIBLE);
     }
 
+    //Pendaftar User Baru
     private void userRegister(){
         getActivity().startActivity(new Intent(getActivity(), SignupActivity.class));
     }

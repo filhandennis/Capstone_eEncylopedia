@@ -30,11 +30,13 @@ import java.util.Locale;
 
 public class SignupActivity extends AppCompatActivity {
 
+    //Komponen View
     private ProgressBar pbSignup;
     private Button btnSignup;
     private EditText txtNama, txtTTL, txtProvinsi, txtDN, txtEmail, txtPassword;
     private AutoCompleteTextView txtAutoCompleteProvinsi;
     private Calendar myCalendar = Calendar.getInstance();
+    //Class Helper
     private ProvinceController cProvince;
 
     //Firebase Object
@@ -48,6 +50,7 @@ public class SignupActivity extends AppCompatActivity {
         setContentView(R.layout.activity_signup);
         setTitle("Form Sign Up");
 
+        //Initate Komponen View
         pbSignup=(ProgressBar)findViewById(R.id.pbSignup);
         btnSignup=(Button)findViewById(R.id.btnSignup);
         txtNama=(EditText)findViewById(R.id.txtSignupNama);
@@ -58,12 +61,15 @@ public class SignupActivity extends AppCompatActivity {
         txtEmail=(EditText)findViewById(R.id.txtSignupEmail);
         txtPassword=(EditText)findViewById(R.id.txtSignupPassword);
 
+        //Iniate Class Helper
         cProvince= new ProvinceController(this);
 
+        //Firebase Object
         auth=FirebaseAuth.getInstance();
         fdb=FirebaseDatabase.getInstance();
         tbUser=fdb.getReference("Users");
 
+        //Action Button
         btnSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -71,16 +77,23 @@ public class SignupActivity extends AppCompatActivity {
             }
         });
 
+        //Initiate Pick Date
         pickADate();
+        //Initiate Province AutoComplete
         pickAProvince();
 
     }
 
+    //User Register
     private void userRegister(){
+        //Form Validation
         formValidation();
+        //Display Loading
         pbSignup.setVisibility(View.VISIBLE);
+        //Get TXT
         final String iEmail=txtEmail.getText().toString();
         String iPassword=txtPassword.getText().toString();
+        //FirebaseAuth Function
         auth.createUserWithEmailAndPassword(iEmail,iPassword)
         .addOnCompleteListener(SignupActivity.this, new OnCompleteListener<AuthResult>() {
             @Override
@@ -148,12 +161,16 @@ public class SignupActivity extends AppCompatActivity {
 
     }
 
+    //Pick Province
     private void pickAProvince(){
+        //Ambil Seluruh data Province
         ArrayList<ProvinceModel> lProvince = cProvince.selectAll();
+        //Collection baru untuk menampung data filter
         ArrayList<String> lProvinceName = new ArrayList<>();
         for(ProvinceModel sProvinceName: lProvince){
             lProvinceName.add(sProvinceName.getNama());
         }
+        //Adapter
         ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1, lProvinceName);
         txtAutoCompleteProvinsi.setThreshold(1);//will start working from first character
         txtAutoCompleteProvinsi.setAdapter(adapter);//setting the adapter data into the AutoCompleteTextView
